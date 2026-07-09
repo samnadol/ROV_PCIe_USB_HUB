@@ -1,0 +1,19 @@
+(version 1)
+
+(rule tusb_escape_clearance
+    (condition "A.intersectsArea('tusb_escape')")
+    (constraint clearance (min 0.09mm))
+    (constraint track_width (min 0.09mm)))
+
+(rule ffc_escape_clearance
+    (condition "A.intersectsArea('ffc_escape')")
+    (constraint clearance (min 0.09mm))
+    (constraint track_width (min 0.09mm)))
+
+(rule ss_skew
+    (condition "A.NetClass == 'diff90_tight'")
+    (constraint skew (max 0.127mm) (within_diff_pairs)))
+
+(rule hs_skew
+    (condition "A.NetClass == 'diff90'")
+    (constraint skew (max 3.8mm) (within_diff_pairs)))
