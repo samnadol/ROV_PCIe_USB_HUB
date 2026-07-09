@@ -2521,7 +2521,7 @@
 				)
 			)
 		)
-		(property "Part Number" "AC0603FR-07453KL"
+		(property "Part Number" "RC0603FR-07453KL"
 			(at 151.13 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -2791,7 +2791,7 @@
 				)
 			)
 		)
-		(property "Part Number" "CL05B104KB5NNNC"
+		(property "Part Number" "CL05B104KO5NNNC"
 			(at 106.68 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -2851,7 +2851,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 175.26 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -2906,7 +2906,7 @@
 				)
 			)
 		)
-		(property "Part Number" "CL31B226MPHNNNE"
+		(property "Part Number" "CL21A226MOQNNNE"
 			(at 175.26 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -3020,7 +3020,7 @@
 				)
 			)
 		)
-		(property "Part Number" "AC0603FR-0710KL"
+		(property "Part Number" "RC0603FR-0710KL"
 			(at 130.81 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -3080,7 +3080,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 175.26 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -3135,7 +3135,7 @@
 				)
 			)
 		)
-		(property "Part Number" "CL31B226MPHNNNE"
+		(property "Part Number" "CL21A226MOQNNNE"
 			(at 175.26 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -3250,7 +3250,7 @@
 				)
 			)
 		)
-		(property "Part Number" "AC0603FR-07100KL"
+		(property "Part Number" "RC0603FR-07100KL"
 			(at 151.13 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -3364,7 +3364,7 @@
 				)
 			)
 		)
-		(property "Part Number" "CL21A106KOQNNNE"
+		(property "Part Number" "CL21A106KOQNNNE "
 			(at 101.6 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -3710,7 +3710,7 @@
 				)
 			)
 		)
-		(property "Part Number" "AC0603FR-0710KL"
+		(property "Part Number" "RC0603FR-0710KL"
 			(at 130.81 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -3825,7 +3825,7 @@
 				)
 			)
 		)
-		(property "Part Number" "AC0603FR-0775KL"
+		(property "Part Number" "RC0603FR-0775KL"
 			(at 151.13 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -3857,10 +3857,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ae3a81eb-ec57-42c6-8e02-20513da1c7be")
 		(property "Reference" "C27"
@@ -3972,10 +3972,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b5355022-76a2-40dc-8ee6-3b106f159136")
 		(property "Reference" "C31"
@@ -4170,7 +4170,7 @@
 				)
 			)
 		)
-		(property "Part Number" "AC0603FR-07100KL"
+		(property "Part Number" "RC0603FR-07100KL"
 			(at 151.13 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -4627,7 +4627,7 @@
 				)
 			)
 		)
-		(property "Part Number" "CL21A106KOQNNNE"
+		(property "Part Number" "CL21A106KOQNNNE "
 			(at 101.6 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -4869,7 +4869,7 @@
 				)
 			)
 		)
-		(property "Part Number" "CL05B104KB5NNNC"
+		(property "Part Number" "CL05B104KO5NNNC"
 			(at 106.68 123.19 0)
 			(hide yes)
 			(show_name no)

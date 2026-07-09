@@ -3614,7 +3614,7 @@
 				)
 			)
 		)
-		(property "Part Number" "AC0603FR-07100KL"
+		(property "Part Number" "RC0603FR-07100KL"
 			(at 71.12 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -3886,7 +3886,7 @@
 				)
 			)
 		)
-		(property "Part Number" "CL05B104KB5NNNC"
+		(property "Part Number" "CL05B104KO5NNNC"
 			(at 162.56 72.39 90)
 			(hide yes)
 			(show_name no)
@@ -4251,7 +4251,7 @@
 				)
 			)
 		)
-		(property "Part Number" "AC0603FR-076K8L"
+		(property "Part Number" "RC0603FR-076K8L"
 			(at 74.93 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -4561,7 +4561,7 @@
 				)
 			)
 		)
-		(property "Part Number" "AC0603FR-073K6L"
+		(property "Part Number" "RC0603FR-073K6L"
 			(at 74.93 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -4752,7 +4752,7 @@
 				)
 			)
 		)
-		(property "Part Number" "CL05B104KB5NNNC"
+		(property "Part Number" "CL05B104KO5NNNC"
 			(at 162.56 76.2 90)
 			(hide yes)
 			(show_name no)

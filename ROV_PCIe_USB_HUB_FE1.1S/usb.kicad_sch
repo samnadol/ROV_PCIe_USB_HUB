@@ -9011,7 +9011,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "022a5bed-24b2-43b7-a716-bfd5544a8b58")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR043"
 			(at 163.83 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -9071,7 +9071,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a83a9209-e0a6-4ea1-b166-e35347b3827c"
-					(reference "#PWR034")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -9089,7 +9089,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "08a46a81-99b9-4b20-a074-2ce9a56cd4d8")
-		(property "Reference" "R27"
+		(property "Reference" "R33"
 			(at 82.042 156.718 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9166,7 +9166,7 @@
 				)
 			)
 		)
-		(property "Part Number" "AC0603FR-07330KL"
+		(property "Part Number" "RC0603FR-07330KL"
 			(at 83.82 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -9186,7 +9186,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a83a9209-e0a6-4ea1-b166-e35347b3827c"
-					(reference "R27")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -9204,7 +9204,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "09514b1d-cceb-491f-9774-d74425e066f7")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR041"
 			(at 100.33 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -9264,7 +9264,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a83a9209-e0a6-4ea1-b166-e35347b3827c"
-					(reference "#PWR032")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -9282,7 +9282,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0c82ed98-7553-49c0-9330-5ab8c7fa195d")
-		(property "Reference" "R24"
+		(property "Reference" "R30"
 			(at 17.272 127.508 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9359,7 +9359,7 @@
 				)
 			)
 		)
-		(property "Part Number" "AC0603FR-075K1L"
+		(property "Part Number" "RC0603FR-075K1L"
 			(at 19.05 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -9379,7 +9379,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a83a9209-e0a6-4ea1-b166-e35347b3827c"
-					(reference "R24")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -9396,7 +9396,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1004f91a-cb14-4a9c-9cb6-5732a33285a8")
-		(property "Reference" "R22"
+		(property "Reference" "R28"
 			(at 179.324 122.428 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9471,7 +9471,7 @@
 				)
 			)
 		)
-		(property "Part Number" "AC0603FR-07470RL"
+		(property "Part Number" "RC0603FR-07470RL"
 			(at 181.61 124.46 90)
 			(hide yes)
 			(show_name no)
@@ -9491,7 +9491,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a83a9209-e0a6-4ea1-b166-e35347b3827c"
-					(reference "R22")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -9531,7 +9531,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 166.37 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -9586,7 +9586,7 @@
 				)
 			)
 		)
-		(property "Part Number" "CL21B105KOFNNNE"
+		(property "Part Number" "CL10B105KO8NNNC"
 			(at 166.37 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -9623,7 +9623,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1829585d-cbd8-404a-a24e-0978fdde551c")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 47.752 50.546 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9634,7 +9634,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "61400826021"
+		(property "Value" "USB-A-D-RA"
 			(at 49.53 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -9821,7 +9821,7 @@
 				)
 			)
 		)
-		(property "Part Number" "61400826021"
+		(property "Part Number" "USB-A-D-RA"
 			(at 49.53 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -9871,7 +9871,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a83a9209-e0a6-4ea1-b166-e35347b3827c"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -10028,7 +10028,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "18ebb69d-b3a7-42e9-b116-b95d45b6276c")
-		(property "Reference" "D5"
+		(property "Reference" "D11"
 			(at 185.166 133.35 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10135,7 +10135,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a83a9209-e0a6-4ea1-b166-e35347b3827c"
-					(reference "D5")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -10518,7 +10518,7 @@
 				)
 			)
 		)
-		(property "Part Number" "CL21A106KOQNNNE"
+		(property "Part Number" "CL21A106KOQNNNE "
 			(at 60.96 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -10632,7 +10632,7 @@
 				)
 			)
 		)
-		(property "Part Number" "CL21A106KOQNNNE"
+		(property "Part Number" "CL21A106KOQNNNE "
 			(at 256.54 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -10680,7 +10680,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "61400826021"
+		(property "Value" "USB-A-D-RA"
 			(at 271.78 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -10867,7 +10867,7 @@
 				)
 			)
 		)
-		(property "Part Number" "61400826021"
+		(property "Part Number" "USB-A-D-RA"
 			(at 271.78 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -10945,7 +10945,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "61400826021"
+		(property "Value" "USB-A-D-RA"
 			(at 271.78 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -11132,7 +11132,7 @@
 				)
 			)
 		)
-		(property "Part Number" "61400826021"
+		(property "Part Number" "USB-A-D-RA"
 			(at 271.78 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -11200,7 +11200,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2255d7fe-deea-4059-b2b0-71d8e613627b")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR034"
 			(at 156.21 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -11260,7 +11260,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a83a9209-e0a6-4ea1-b166-e35347b3827c"
-					(reference "#PWR050")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -11355,7 +11355,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2460e6c3-1406-473e-a437-9079e13b947d")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR026"
 			(at 279.4 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -11415,7 +11415,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a83a9209-e0a6-4ea1-b166-e35347b3827c"
-					(reference "#PWR027")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -11432,7 +11432,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "25d5b57d-5c45-4e0c-93ce-c94a05b44362")
-		(property "Reference" "D1"
+		(property "Reference" "D7"
 			(at 194.31 112.776 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11539,7 +11539,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a83a9209-e0a6-4ea1-b166-e35347b3827c"
-					(reference "D1")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -11556,7 +11556,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "260d05f2-8ebe-4e85-96a2-993a43739ae7")
-		(property "Reference" "D2"
+		(property "Reference" "D8"
 			(at 194.31 118.618 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11663,7 +11663,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a83a9209-e0a6-4ea1-b166-e35347b3827c"
-					(reference "D2")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -11681,7 +11681,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "280e434a-add1-4e14-a39a-53b9a13b532b")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR035"
 			(at 168.91 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -11741,7 +11741,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a83a9209-e0a6-4ea1-b166-e35347b3827c"
-					(reference "#PWR053")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -11759,7 +11759,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2af33f94-46c0-4bec-b01f-682d81c91d1d")
-		(property "Reference" "D9"
+		(property "Reference" "D3"
 			(at 177.038 26.67 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11866,7 +11866,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a83a9209-e0a6-4ea1-b166-e35347b3827c"
-					(reference "D9")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -11883,7 +11883,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2e7605ef-7848-4f3c-9dcc-068c8ffec7ae")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR044"
 			(at 100.33 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -11943,7 +11943,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a83a9209-e0a6-4ea1-b166-e35347b3827c"
-					(reference "#PWR035")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -11961,7 +11961,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "41fbbc75-008e-497e-bf55-b81955d94eb9")
-		(property "Reference" "R35"
+		(property "Reference" "R24"
 			(at 210.058 33.274 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12036,7 +12036,7 @@
 				)
 			)
 		)
-		(property "Part Number" "AC0603FR-07470RL"
+		(property "Part Number" "RC0603FR-07100RL"
 			(at 213.36 34.29 90)
 			(hide yes)
 			(show_name no)
@@ -12056,7 +12056,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a83a9209-e0a6-4ea1-b166-e35347b3827c"
-					(reference "R35")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -12150,7 +12150,7 @@
 				)
 			)
 		)
-		(property "Part Number" "CL21A106KOQNNNE"
+		(property "Part Number" "CL21A106KOQNNNE "
 			(at 256.54 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -12265,7 +12265,7 @@
 				)
 			)
 		)
-		(property "Part Number" "CL21A106KOQNNNE"
+		(property "Part Number" "CL21A106KOQNNNE "
 			(at 118.11 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -12303,7 +12303,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "448eb04c-eb2e-4796-8d95-06bd3dcc5a10")
-		(property "Reference" "R31"
+		(property "Reference" "R19"
 			(at 152.908 33.274 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12378,7 +12378,7 @@
 				)
 			)
 		)
-		(property "Part Number" "AC0603FR-07470RL"
+		(property "Part Number" "RC0603FR-07270RL"
 			(at 156.21 34.29 90)
 			(hide yes)
 			(show_name no)
@@ -12398,7 +12398,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a83a9209-e0a6-4ea1-b166-e35347b3827c"
-					(reference "R31")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -12416,7 +12416,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "48bf20b3-e96a-4552-badd-2b0016d20f74")
-		(property "Reference" "R36"
+		(property "Reference" "R22"
 			(at 187.198 33.274 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12491,7 +12491,7 @@
 				)
 			)
 		)
-		(property "Part Number" "AC0603FR-07470RL"
+		(property "Part Number" "RC0603FR-07100RL"
 			(at 190.5 34.29 90)
 			(hide yes)
 			(show_name no)
@@ -12511,7 +12511,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a83a9209-e0a6-4ea1-b166-e35347b3827c"
-					(reference "R36")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -12529,7 +12529,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4a8196ce-cd09-4733-80a2-f81a541e0a44")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR036"
 			(at 180.34 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -12589,7 +12589,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a83a9209-e0a6-4ea1-b166-e35347b3827c"
-					(reference "#PWR055")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -12617,7 +12617,7 @@
 				)
 			)
 		)
-		(property "Value" "MIC5504-3.3YM5"
+		(property "Value" "MIC5504-3.3YM5-TR"
 			(at 151.13 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12660,7 +12660,7 @@
 				)
 			)
 		)
-		(property "Part Number" "MIC5504-3.3YM5"
+		(property "Part Number" "MIC5504-3.3YM5-TR"
 			(at 151.13 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -12706,7 +12706,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4f8d80be-50b2-45de-bc90-26042c142d83")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR027"
 			(at 168.91 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -12766,7 +12766,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a83a9209-e0a6-4ea1-b166-e35347b3827c"
-					(reference "#PWR052")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -12783,7 +12783,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4f923943-c07e-46f3-a003-f7be952fae76")
-		(property "Reference" "D4"
+		(property "Reference" "D10"
 			(at 194.31 127.508 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12890,7 +12890,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a83a9209-e0a6-4ea1-b166-e35347b3827c"
-					(reference "D4")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -12984,7 +12984,7 @@
 				)
 			)
 		)
-		(property "Part Number" "CL05B104KB5NNNC"
+		(property "Part Number" "CL05B104KO5NNNC"
 			(at 167.64 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -13021,7 +13021,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5563e7a5-7194-4934-91b3-e1a73c32942d")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR057"
 			(at 99.06 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -13081,7 +13081,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a83a9209-e0a6-4ea1-b166-e35347b3827c"
-					(reference "#PWR048")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -13099,7 +13099,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "56f166e9-c840-4fae-ac4e-44d46da593a5")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR028"
 			(at 180.34 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -13159,7 +13159,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a83a9209-e0a6-4ea1-b166-e35347b3827c"
-					(reference "#PWR049")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -13187,7 +13187,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "61400826021"
+		(property "Value" "USB-A-D-RA"
 			(at 271.78 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -13374,7 +13374,7 @@
 				)
 			)
 		)
-		(property "Part Number" "61400826021"
+		(property "Part Number" "USB-A-D-RA"
 			(at 271.78 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -13441,7 +13441,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "59194e7d-39b7-4095-8fd4-c76ccb67e645")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR033"
 			(at 39.37 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -13501,7 +13501,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a83a9209-e0a6-4ea1-b166-e35347b3827c"
-					(reference "#PWR030")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -13519,7 +13519,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5d055bfd-348a-4675-b368-b2c4afaf9dab")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR045"
 			(at 123.19 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -13579,7 +13579,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a83a9209-e0a6-4ea1-b166-e35347b3827c"
-					(reference "#PWR036")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -13596,7 +13596,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5d88e02b-2d65-4a4d-baeb-bb4cc7fb7e06")
-		(property "Reference" "R25"
+		(property "Reference" "R31"
 			(at 60.198 132.588 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13673,7 +13673,7 @@
 				)
 			)
 		)
-		(property "Part Number" "AC0603FR-075K1L"
+		(property "Part Number" "RC0603FR-075K1L"
 			(at 58.42 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -13693,7 +13693,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a83a9209-e0a6-4ea1-b166-e35347b3827c"
-					(reference "R25")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -13711,7 +13711,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "679d88f1-382b-4fec-ac1e-bbde09004ca0")
-		(property "Reference" "R32"
+		(property "Reference" "R20"
 			(at 165.608 33.274 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13786,7 +13786,7 @@
 				)
 			)
 		)
-		(property "Part Number" "AC0603FR-07470RL"
+		(property "Part Number" "RC0603FR-07270RL"
 			(at 168.91 34.29 90)
 			(hide yes)
 			(show_name no)
@@ -13806,7 +13806,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a83a9209-e0a6-4ea1-b166-e35347b3827c"
-					(reference "R32")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -13824,7 +13824,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "681a49f2-380a-411c-a628-39aaa719ed21")
-		(property "Reference" "D8"
+		(property "Reference" "D2"
 			(at 165.608 26.67 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13931,7 +13931,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a83a9209-e0a6-4ea1-b166-e35347b3827c"
-					(reference "D8")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -13948,7 +13948,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6ebb90fa-251b-49bd-83e3-e65248b5e3b8")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR048"
 			(at 21.59 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -14008,7 +14008,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a83a9209-e0a6-4ea1-b166-e35347b3827c"
-					(reference "#PWR039")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -14026,7 +14026,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6ef16fa8-b189-4216-a3aa-5650b9bd084b")
-		(property "Reference" "R26"
+		(property "Reference" "R32"
 			(at 173.228 138.684 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14101,7 +14101,7 @@
 				)
 			)
 		)
-		(property "Part Number" "AC0603FR-07470RL"
+		(property "Part Number" "RC0603FR-07470RL"
 			(at 176.53 137.16 90)
 			(hide yes)
 			(show_name no)
@@ -14121,7 +14121,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a83a9209-e0a6-4ea1-b166-e35347b3827c"
-					(reference "R26")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -14138,7 +14138,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6fa4d5e6-0c63-44bf-b322-c0512e608de5")
-		(property "Reference" "R21"
+		(property "Reference" "R27"
 			(at 179.324 113.538 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14213,7 +14213,7 @@
 				)
 			)
 		)
-		(property "Part Number" "AC0603FR-07470RL"
+		(property "Part Number" "RC0603FR-07470RL"
 			(at 181.61 115.57 90)
 			(hide yes)
 			(show_name no)
@@ -14233,7 +14233,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a83a9209-e0a6-4ea1-b166-e35347b3827c"
-					(reference "R21")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -14328,7 +14328,7 @@
 				)
 			)
 		)
-		(property "Part Number" "CL21A106KOQNNNE"
+		(property "Part Number" "CL21A106KOQNNNE "
 			(at 62.23 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -14365,7 +14365,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "71252066-ad43-453e-ab49-0fbd97c8b1fd")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 45.974 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14376,7 +14376,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "61400826021"
+		(property "Value" "USB-A-D-RA"
 			(at 48.26 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -14563,7 +14563,7 @@
 				)
 			)
 		)
-		(property "Part Number" "61400826021"
+		(property "Part Number" "USB-A-D-RA"
 			(at 48.26 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -14613,7 +14613,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a83a9209-e0a6-4ea1-b166-e35347b3827c"
-					(reference "J2")
+					(reference "J3")
 					(unit 2)
 				)
 			)
@@ -14631,7 +14631,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "75f0764b-32e8-4690-b3de-f0b88de46ebc")
-		(property "Reference" "D7"
+		(property "Reference" "D1"
 			(at 152.908 26.67 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14738,7 +14738,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a83a9209-e0a6-4ea1-b166-e35347b3827c"
-					(reference "D7")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -14756,7 +14756,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7a3a5884-f686-429d-9d3c-8cb9105196fa")
-		(property "Reference" "R34"
+		(property "Reference" "R23"
 			(at 199.898 33.274 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14831,7 +14831,7 @@
 				)
 			)
 		)
-		(property "Part Number" "AC0603FR-07470RL"
+		(property "Part Number" "RC0603FR-07270RL"
 			(at 203.2 34.29 90)
 			(hide yes)
 			(show_name no)
@@ -14851,7 +14851,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a83a9209-e0a6-4ea1-b166-e35347b3827c"
-					(reference "R34")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -14868,7 +14868,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7c78b96f-db24-4023-856b-2798380065a9")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR053"
 			(at 118.11 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -14928,7 +14928,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a83a9209-e0a6-4ea1-b166-e35347b3827c"
-					(reference "#PWR044")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -14945,7 +14945,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7dff81b9-e70e-434f-9a31-7043770c4494")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR055"
 			(at 151.13 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -15005,7 +15005,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a83a9209-e0a6-4ea1-b166-e35347b3827c"
-					(reference "#PWR046")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -15023,7 +15023,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "807dfb4a-5c9e-411a-8c4b-c4d2f1fd679b")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR038"
 			(at 203.2 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -15083,7 +15083,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a83a9209-e0a6-4ea1-b166-e35347b3827c"
-					(reference "#PWR056")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -15101,7 +15101,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "81243259-9c23-4060-a0c0-becdae75a527")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR040"
 			(at 39.37 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -15161,7 +15161,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a83a9209-e0a6-4ea1-b166-e35347b3827c"
-					(reference "#PWR031")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -15188,7 +15188,7 @@
 				)
 			)
 		)
-		(property "Value" "TPS2051CDBV"
+		(property "Value" "TPS2051CDBVR"
 			(at 242.57 127.762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15233,7 +15233,7 @@
 				)
 			)
 		)
-		(property "Part Number" "TPS2051CDBV"
+		(property "Part Number" "TPS2051CDBVR"
 			(at 237.49 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -15280,7 +15280,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "862c90a6-fe7d-4424-93cf-ff95b424f632")
-		(property "Reference" "D10"
+		(property "Reference" "D5"
 			(at 199.898 26.67 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15387,7 +15387,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a83a9209-e0a6-4ea1-b166-e35347b3827c"
-					(reference "D10")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -15404,7 +15404,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "86340f1f-5a85-4c70-a3ec-578a6dbf3e7c")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR042"
 			(at 40.64 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -15464,7 +15464,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a83a9209-e0a6-4ea1-b166-e35347b3827c"
-					(reference "#PWR033")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -15558,7 +15558,7 @@
 				)
 			)
 		)
-		(property "Part Number" "CL21A106KOQNNNE"
+		(property "Part Number" "CL21A106KOQNNNE "
 			(at 256.54 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -15596,7 +15596,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "89e702df-2129-4215-8cf5-412ae450e6ac")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR030"
 			(at 279.4 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -15656,7 +15656,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a83a9209-e0a6-4ea1-b166-e35347b3827c"
-					(reference "#PWR029")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -15774,7 +15774,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8dfdf437-1a74-4514-b7c5-f1ec47474df1")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR052"
 			(at 262.89 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -15834,7 +15834,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a83a9209-e0a6-4ea1-b166-e35347b3827c"
-					(reference "#PWR042")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -15851,7 +15851,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "99689aa1-eda1-460b-8238-3ae055f6a452")
-		(property "Reference" "D3"
+		(property "Reference" "D9"
 			(at 194.31 121.666 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15958,7 +15958,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a83a9209-e0a6-4ea1-b166-e35347b3827c"
-					(reference "D3")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -15976,7 +15976,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9dd641e6-11b1-45e7-85e8-7ae16d7eab16")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR029"
 			(at 190.5 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -16036,7 +16036,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a83a9209-e0a6-4ea1-b166-e35347b3827c"
-					(reference "#PWR051")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -16053,7 +16053,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9ef42900-79c0-4920-b29d-c13f5a1294a5")
-		(property "Reference" "R20"
+		(property "Reference" "R26"
 			(at 120.65 113.284 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16130,7 +16130,7 @@
 				)
 			)
 		)
-		(property "Part Number" "AC0603FR-07100KL"
+		(property "Part Number" "RC0603FR-07100KL"
 			(at 121.92 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -16150,7 +16150,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a83a9209-e0a6-4ea1-b166-e35347b3827c"
-					(reference "R20")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -16177,7 +16177,7 @@
 				)
 			)
 		)
-		(property "Value" "TPS2051CDBV"
+		(property "Value" "TPS2051CDBVR"
 			(at 242.57 29.972 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16222,7 +16222,7 @@
 				)
 			)
 		)
-		(property "Part Number" "TPS2051CDBV"
+		(property "Part Number" "TPS2051CDBVR"
 			(at 237.49 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -16269,7 +16269,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a7108d52-936e-445c-90b4-122c4d955887")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR037"
 			(at 190.5 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -16329,7 +16329,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a83a9209-e0a6-4ea1-b166-e35347b3827c"
-					(reference "#PWR058")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -16347,7 +16347,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ab71f894-90c4-430e-9ba1-2298cdcd5f82")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR051"
 			(at 69.85 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -16407,7 +16407,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a83a9209-e0a6-4ea1-b166-e35347b3827c"
-					(reference "#PWR043")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -16502,7 +16502,7 @@
 				)
 			)
 		)
-		(property "Part Number" "CL21A106KOQNNNE"
+		(property "Part Number" "CL21A106KOQNNNE "
 			(at 163.83 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -16540,7 +16540,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ac099605-cc2c-4603-81fa-a57885bdd549")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR056"
 			(at 80.01 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -16600,7 +16600,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a83a9209-e0a6-4ea1-b166-e35347b3827c"
-					(reference "#PWR047")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -16618,7 +16618,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ac88391c-50c6-4696-8208-07a6efcf985d")
-		(property "Reference" "R33"
+		(property "Reference" "R21"
 			(at 177.038 33.274 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16693,7 +16693,7 @@
 				)
 			)
 		)
-		(property "Part Number" "AC0603FR-07470RL"
+		(property "Part Number" "RC0603FR-07270RL"
 			(at 180.34 34.29 90)
 			(hide yes)
 			(show_name no)
@@ -16713,7 +16713,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a83a9209-e0a6-4ea1-b166-e35347b3827c"
-					(reference "R33")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -16731,7 +16731,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "adf31821-7e5c-4b11-ad57-7b0584c7e13b")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR050"
 			(at 83.82 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -16791,7 +16791,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a83a9209-e0a6-4ea1-b166-e35347b3827c"
-					(reference "#PWR041")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -17090,7 +17090,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b38964d9-7c4e-4e76-8603-3518759005af")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR039"
 			(at 213.36 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -17150,7 +17150,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a83a9209-e0a6-4ea1-b166-e35347b3827c"
-					(reference "#PWR057")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -17244,7 +17244,7 @@
 				)
 			)
 		)
-		(property "Part Number" "CL21A106KOQNNNE"
+		(property "Part Number" "CL21A106KOQNNNE "
 			(at 256.54 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -17281,7 +17281,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b58c553c-616e-42af-be01-e297969e6970")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 270.002 18.542 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17377,7 +17377,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a83a9209-e0a6-4ea1-b166-e35347b3827c"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -17394,7 +17394,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bd0e28b8-7c56-440b-8824-26e201e3cb92")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR031"
 			(at 226.06 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -17454,7 +17454,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a83a9209-e0a6-4ea1-b166-e35347b3827c"
-					(reference "#PWR026")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -17472,7 +17472,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bfc2a28d-fe0b-43ff-a4fc-2d642bdba9a0")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR049"
 			(at 55.88 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -17532,7 +17532,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a83a9209-e0a6-4ea1-b166-e35347b3827c"
-					(reference "#PWR040")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -17550,7 +17550,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c10cf263-2089-4571-a53d-701b8cd4ad9a")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR047"
 			(at 153.67 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -17610,7 +17610,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a83a9209-e0a6-4ea1-b166-e35347b3827c"
-					(reference "#PWR038")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -17627,7 +17627,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c33dc5c3-34d1-407e-ad38-75d48cad727a")
-		(property "Reference" "R29"
+		(property "Reference" "R35"
 			(at 85.598 166.878 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17704,7 +17704,7 @@
 				)
 			)
 		)
-		(property "Part Number" "AC0603FR-07100KL"
+		(property "Part Number" "RC0603FR-07100KL"
 			(at 83.82 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -17724,7 +17724,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a83a9209-e0a6-4ea1-b166-e35347b3827c"
-					(reference "R29")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -17742,7 +17742,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c36b7806-5a0d-485a-a86b-81693dc66810")
-		(property "Reference" "D11"
+		(property "Reference" "D6"
 			(at 210.058 26.67 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17849,7 +17849,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a83a9209-e0a6-4ea1-b166-e35347b3827c"
-					(reference "D11")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -17867,7 +17867,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c49ff389-676a-4286-9283-d799cc88cbd8")
-		(property "Reference" "R19"
+		(property "Reference" "R25"
 			(at 87.122 98.298 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17944,7 +17944,7 @@
 				)
 			)
 		)
-		(property "Part Number" "AC0603FR-0710KL"
+		(property "Part Number" "RC0603FR-0710KL"
 			(at 88.9 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -17964,7 +17964,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a83a9209-e0a6-4ea1-b166-e35347b3827c"
-					(reference "R19")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -17992,7 +17992,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "61400826021"
+		(property "Value" "USB-A-D-RA"
 			(at 271.78 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -18179,7 +18179,7 @@
 				)
 			)
 		)
-		(property "Part Number" "61400826021"
+		(property "Part Number" "USB-A-D-RA"
 			(at 271.78 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -18256,7 +18256,7 @@
 				)
 			)
 		)
-		(property "Value" "TPS2051CDBV"
+		(property "Value" "TPS2051CDBVR"
 			(at 242.57 96.012 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18301,7 +18301,7 @@
 				)
 			)
 		)
-		(property "Part Number" "TPS2051CDBV"
+		(property "Part Number" "TPS2051CDBVR"
 			(at 237.49 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -18348,7 +18348,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d09c2be4-4a61-472c-b51c-b12bd30c0d7e")
-		(property "Reference" "R28"
+		(property "Reference" "R34"
 			(at 112.522 157.988 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18425,7 +18425,7 @@
 				)
 			)
 		)
-		(property "Part Number" "AC0603FR-07100KL"
+		(property "Part Number" "RC0603FR-07100KL"
 			(at 114.3 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -18445,7 +18445,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a83a9209-e0a6-4ea1-b166-e35347b3827c"
-					(reference "R28")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -18540,7 +18540,7 @@
 				)
 			)
 		)
-		(property "Part Number" "CL05B104KB5NNNC"
+		(property "Part Number" "CL05B104KO5NNNC"
 			(at 95.25 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -18587,7 +18587,7 @@
 				)
 			)
 		)
-		(property "Value" "TPS2051CDBV"
+		(property "Value" "TPS2051CDBVR"
 			(at 242.57 60.452 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18632,7 +18632,7 @@
 				)
 			)
 		)
-		(property "Part Number" "TPS2051CDBV"
+		(property "Part Number" "TPS2051CDBVR"
 			(at 237.49 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -18810,7 +18810,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dee65a77-6b51-4676-beab-dc642aa34f2d")
-		(property "Reference" "D12"
+		(property "Reference" "D4"
 			(at 187.198 26.67 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18917,7 +18917,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a83a9209-e0a6-4ea1-b166-e35347b3827c"
-					(reference "D12")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -18934,7 +18934,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e1c81d69-a785-4e4b-b955-bfd954a04d16")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR054"
 			(at 166.37 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -18994,7 +18994,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a83a9209-e0a6-4ea1-b166-e35347b3827c"
-					(reference "#PWR045")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -19033,7 +19033,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 83.82 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -19088,7 +19088,7 @@
 				)
 			)
 		)
-		(property "Part Number" "CL21B105KOFNNNE"
+		(property "Part Number" "CL10B105KO8NNNC"
 			(at 83.82 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -19147,7 +19147,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 80.01 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -19202,7 +19202,7 @@
 				)
 			)
 		)
-		(property "Part Number" "CL21B105KOFNNNE"
+		(property "Part Number" "CL10B105KO8NNNC"
 			(at 80.01 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -19239,7 +19239,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e8ae7926-f1e8-4aef-9001-ec9939cb1bba")
-		(property "Reference" "R23"
+		(property "Reference" "R29"
 			(at 134.62 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19250,7 +19250,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k7 1%"
+		(property "Value" "2k7"
 			(at 134.62 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19316,7 +19316,7 @@
 				)
 			)
 		)
-		(property "Part Number" "RT0603BRD072K7L"
+		(property "Part Number" "RC0603FR-072K7L"
 			(at 132.08 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -19336,7 +19336,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a83a9209-e0a6-4ea1-b166-e35347b3827c"
-					(reference "R23")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -19355,7 +19355,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e922e435-8e16-4334-89e8-b6061bda835f")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR032"
 			(at 100.33 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -19415,7 +19415,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a83a9209-e0a6-4ea1-b166-e35347b3827c"
-					(reference "#PWR028")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -19444,7 +19444,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "692121430000"
+		(property "Value" "USB-A3-S-VT-CS5A"
 			(at 130.81 19.05 0)
 			(hide yes)
 			(show_name no)
@@ -19539,7 +19539,7 @@
 				(justify left)
 			)
 		)
-		(property "Part Number" "692121430000"
+		(property "Part Number" "USB-A3-S-VT-CS5A"
 			(at 130.81 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -19735,7 +19735,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f241757b-4cc6-48b6-a041-212451b84763")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR046"
 			(at 77.47 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -19795,7 +19795,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a83a9209-e0a6-4ea1-b166-e35347b3827c"
-					(reference "#PWR037")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)

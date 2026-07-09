@@ -5975,7 +5975,7 @@
 				)
 			)
 		)
-		(property "Part Number" "AC0603FR-0710KL"
+		(property "Part Number" "RC0603FR-0710KL"
 			(at 107.95 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -6091,7 +6091,7 @@
 				)
 			)
 		)
-		(property "Part Number" "CL05B104KB5NNNC"
+		(property "Part Number" "CL05B104KO5NNNC"
 			(at 29.21 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -6203,7 +6203,7 @@
 				)
 			)
 		)
-		(property "Part Number" "AC0603FR-07100KL"
+		(property "Part Number" "RC0603FR-07100KL"
 			(at 81.28 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -6319,7 +6319,7 @@
 				)
 			)
 		)
-		(property "Part Number" "CL05B104KB5NNNC"
+		(property "Part Number" "CL05B104KO5NNNC"
 			(at 39.37 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -6586,7 +6586,7 @@
 				)
 			)
 		)
-		(property "Part Number" "CL05B104KB5NNNC"
+		(property "Part Number" "CL05B104KO5NNNC"
 			(at 91.44 59.69 90)
 			(hide yes)
 			(show_name no)
@@ -6698,7 +6698,7 @@
 				)
 			)
 		)
-		(property "Part Number" "AC0402FR-070RL"
+		(property "Part Number" "RC0402JR-070RL"
 			(at 114.3 129.54 90)
 			(hide yes)
 			(show_name no)
@@ -6811,7 +6811,7 @@
 				)
 			)
 		)
-		(property "Part Number" "AC0603FR-0710KL"
+		(property "Part Number" "RC0603FR-0710KL"
 			(at 85.09 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -6925,7 +6925,7 @@
 				)
 			)
 		)
-		(property "Part Number" "CL05C270JB51PNC"
+		(property "Part Number" "CL05C270JB5NNNC "
 			(at 95.25 127 90)
 			(hide yes)
 			(show_name no)
@@ -7041,7 +7041,7 @@
 				)
 			)
 		)
-		(property "Part Number" "CL05B104KB5NNNC"
+		(property "Part Number" "CL05B104KO5NNNC"
 			(at 34.29 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -7235,7 +7235,7 @@
 				)
 			)
 		)
-		(property "Part Number" "CL05B104KB5NNNC"
+		(property "Part Number" "CL05B104KO5NNNC"
 			(at 64.77 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -7295,7 +7295,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 64.77 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -7350,7 +7350,7 @@
 				)
 			)
 		)
-		(property "Part Number" "CL31B226MPHNNNE"
+		(property "Part Number" "CL21A226MOQNNNE"
 			(at 64.77 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -7466,7 +7466,7 @@
 				)
 			)
 		)
-		(property "Part Number" "CL05B104KB5NNNC"
+		(property "Part Number" "CL05B104KO5NNNC"
 			(at 49.53 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -7582,7 +7582,7 @@
 				)
 			)
 		)
-		(property "Part Number" "CL05B104KB5NNNC"
+		(property "Part Number" "CL05B104KO5NNNC"
 			(at 34.29 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -7928,7 +7928,7 @@
 				)
 			)
 		)
-		(property "Part Number" "CL05C270JB51PNC"
+		(property "Part Number" "CL05C270JB5NNNC "
 			(at 95.25 134.62 90)
 			(hide yes)
 			(show_name no)
@@ -8043,7 +8043,7 @@
 				)
 			)
 		)
-		(property "Part Number" "CL05B104KB5NNNC"
+		(property "Part Number" "CL05B104KO5NNNC"
 			(at 223.52 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -8156,7 +8156,7 @@
 				)
 			)
 		)
-		(property "Part Number" "AC0603FR-0710KL"
+		(property "Part Number" "RC0603FR-0710KL"
 			(at 77.47 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -8216,7 +8216,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 73.66 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -8271,7 +8271,7 @@
 				)
 			)
 		)
-		(property "Part Number" "CL31B226MPHNNNE"
+		(property "Part Number" "CL21A226MOQNNNE"
 			(at 73.66 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -8387,7 +8387,7 @@
 				)
 			)
 		)
-		(property "Part Number" "CL05B104KB5NNNC"
+		(property "Part Number" "CL05B104KO5NNNC"
 			(at 59.69 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -8693,7 +8693,7 @@
 				)
 			)
 		)
-		(property "Part Number" "CL05B104KB5NNNC"
+		(property "Part Number" "CL05B104KO5NNNC"
 			(at 49.53 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -8882,7 +8882,7 @@
 				)
 			)
 		)
-		(property "Part Number" "AC0603FR-0710KL"
+		(property "Part Number" "RC0603FR-0710KL"
 			(at 73.66 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -9076,7 +9076,7 @@
 				)
 			)
 		)
-		(property "Part Number" "CL05B104KB5NNNC"
+		(property "Part Number" "CL05B104KO5NNNC"
 			(at 44.45 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -9266,7 +9266,7 @@
 				)
 			)
 		)
-		(property "Part Number" "CL05B104KB5NNNC"
+		(property "Part Number" "CL05B104KO5NNNC"
 			(at 91.44 62.23 90)
 			(hide yes)
 			(show_name no)
@@ -9381,7 +9381,7 @@
 				)
 			)
 		)
-		(property "Part Number" "CL21A106KOQNNNE"
+		(property "Part Number" "CL21A106KOQNNNE "
 			(at 213.36 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -9497,7 +9497,7 @@
 				)
 			)
 		)
-		(property "Part Number" "CL05B104KB5NNNC"
+		(property "Part Number" "CL05B104KO5NNNC"
 			(at 39.37 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -9930,7 +9930,7 @@
 				)
 			)
 		)
-		(property "Part Number" "CL05B104KB5NNNC"
+		(property "Part Number" "CL05B104KO5NNNC"
 			(at 44.45 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -10096,7 +10096,7 @@
 				)
 			)
 		)
-		(property "Value" "1k6 1%"
+		(property "Value" "1k6"
 			(at 109.728 139.954 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10161,7 +10161,7 @@
 				)
 			)
 		)
-		(property "Part Number" "RT0603BRD071K6L"
+		(property "Part Number" "RC0603FR-071K6L"
 			(at 105.41 142.24 90)
 			(hide yes)
 			(show_name no)
@@ -10643,7 +10643,7 @@
 				)
 			)
 		)
-		(property "Part Number" "CL05B104KB5NNNC"
+		(property "Part Number" "CL05B104KO5NNNC"
 			(at 54.61 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -10759,7 +10759,7 @@
 				)
 			)
 		)
-		(property "Part Number" "CL05B104KB5NNNC"
+		(property "Part Number" "CL05B104KO5NNNC"
 			(at 54.61 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -10874,7 +10874,7 @@
 				)
 			)
 		)
-		(property "Part Number" "CL05B104KB5NNNC"
+		(property "Part Number" "CL05B104KO5NNNC"
 			(at 228.6 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -10986,7 +10986,7 @@
 				)
 			)
 		)
-		(property "Part Number" "AC0603FR-0710KL"
+		(property "Part Number" "RC0603FR-0710KL"
 			(at 81.28 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -11099,7 +11099,7 @@
 				)
 			)
 		)
-		(property "Part Number" "AC0603FR-0710KL"
+		(property "Part Number" "RC0603FR-0710KL"
 			(at 38.1 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -11215,7 +11215,7 @@
 				)
 			)
 		)
-		(property "Part Number" "CL05B104KB5NNNC"
+		(property "Part Number" "CL05B104KO5NNNC"
 			(at 29.21 46.99 0)
 			(hide yes)
 			(show_name no)

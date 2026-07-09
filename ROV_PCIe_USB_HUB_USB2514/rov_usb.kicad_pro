@@ -82,7 +82,24 @@
           "width": 0.19
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "lib_footprint_mismatch|187420000|99920000|65a08b48-d150-4d31-89b8-f7381a65e802|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_edge_clearance|238500000|118155157|29278d6f-08d9-4e54-9e79-372b833cf96c|eb57439e-eb16-4b90-9709-dc31175078c0",
+          ""
+        ],
+        [
+          "silk_edge_clearance|238500000|130875157|29278d6f-08d9-4e54-9e79-372b833cf96c|6f301d8b-df6f-4224-a4dd-7c5158b813bc",
+          ""
+        ],
+        [
+          "silk_edge_clearance|238502348|130875157|29278d6f-08d9-4e54-9e79-372b833cf96c|e7a601ce-509d-43b8-b2a2-a2f1f5331a52",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -128,8 +145,8 @@
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "error",
-        "silk_overlap": "error",
+        "silk_over_copper": "warning",
+        "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -177,10 +194,11 @@
       },
       "teardrop_options": [
         {
-          "td_onpadsmd": true,
+          "td_onpthpad": true,
           "td_onroundshapesonly": false,
+          "td_onsmdpad": true,
           "td_ontrackend": false,
-          "td_onviapad": true
+          "td_onvia": true
         }
       ],
       "teardrop_parameters": [
@@ -712,6 +730,12 @@
         },
         {
           "group_by": false,
+          "label": "Part Number",
+          "name": "Part Number",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
@@ -793,12 +817,6 @@
           "label": "Mounting Technology",
           "name": "Mounting Technology",
           "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Part Number",
-          "name": "Part Number",
-          "show": true
         },
         {
           "group_by": false,
@@ -884,7 +902,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Part Number"
+      "sort_field": "Value"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
