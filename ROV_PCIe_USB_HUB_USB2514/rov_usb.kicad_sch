@@ -5105,7 +5105,7 @@
 				)
 			)
 		)
-		(property "Part Number" "CL05B104KO5NNNC"
+		(property "Part Number" "CC0402KRX7R8BB104"
 			(at 162.56 72.39 90)
 			(hide yes)
 			(show_name no)
@@ -5353,6 +5353,17 @@
 				)
 			)
 		)
+		(property "Part Number" "AO3401A"
+			(at 111.76 133.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e01135da-abc0-4250-8d9c-d3688c219ba9")
 		)
@@ -5428,6 +5439,17 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 111.76 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "RC0603FR-07100KL"
 			(at 111.76 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -5589,6 +5611,17 @@
 		)
 		(property "Description" "400W unidirectional Transient Voltage Suppressor, 5.0Vr, SMA(DO-214AC)"
 			(at 88.9 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "SMAJ5.0A"
+			(at 88.9 135.89 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5908,7 +5941,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6k8"
+		(property "Value" "10k"
 			(at 77.47 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5974,7 +6007,7 @@
 				)
 			)
 		)
-		(property "Part Number" "RC0603FR-076K8L"
+		(property "Part Number" "RC0603FR-0710KL"
 			(at 74.93 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -6218,7 +6251,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3k6"
+		(property "Value" "5k1"
 			(at 77.47 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6284,7 +6317,7 @@
 				)
 			)
 		)
-		(property "Part Number" "RC0603FR-073K6L"
+		(property "Part Number" "RC0603FR-075K1L"
 			(at 74.93 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -6475,7 +6508,7 @@
 				)
 			)
 		)
-		(property "Part Number" "CL05B104KO5NNNC"
+		(property "Part Number" "CC0402KRX7R8BB104"
 			(at 162.56 76.2 90)
 			(hide yes)
 			(show_name no)

@@ -4219,18 +4219,6 @@
 		(uuid "02e92b7e-7a39-41f8-b6f2-8dd503446983")
 	)
 	(junction
-		(at 187.96 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0b145560-a54a-4fa3-af73-ec47bd7ea050")
-	)
-	(junction
-		(at 191.77 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "24e90291-c2bb-4beb-bf8c-130081e246aa")
-	)
-	(junction
 		(at 217.17 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4309,10 +4297,28 @@
 		(uuid "aef9a804-8e8a-443f-89d5-37a6ace3d415")
 	)
 	(junction
+		(at 182.88 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5dcd08e-05bc-4134-9950-36a22873839d")
+	)
+	(junction
+		(at 191.77 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd5a431f-5c2d-4c89-bf5a-ae6f9aa6ed83")
+	)
+	(junction
 		(at 217.17 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c005081a-f143-4067-90cf-ab67171674e9")
+	)
+	(junction
+		(at 163.5367 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c05d330a-2eda-4bfa-98b1-8d0cb60064c0")
 	)
 	(junction
 		(at 173.99 63.5)
@@ -4339,12 +4345,6 @@
 		(uuid "d09e2a29-4330-4207-9a80-fd2ca550da39")
 	)
 	(junction
-		(at 187.96 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d34f9c26-c341-4af9-adc7-43037bb0d6e9")
-	)
-	(junction
 		(at 144.78 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4367,12 +4367,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f48aaada-74d3-4a7e-9aee-9a4faae8e755")
-	)
-	(junction
-		(at 163.83 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fdadb502-0300-4bba-b9db-4a46b7de4ce1")
 	)
 	(junction
 		(at 71.12 72.39)
@@ -4466,7 +4460,17 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 52.07) (xy 165.1 52.07)
+			(xy 168.6167 54.61) (xy 168.91 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12ff367e-b261-4d93-a845-960af5d50141")
+	)
+	(wire
+		(pts
+			(xy 154.94 52.07) (xy 163.5367 52.07)
 		)
 		(stroke
 			(width 0)
@@ -4586,16 +4590,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 63.5) (xy 191.77 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35aba0c5-7c32-4673-aec6-fabc9c91ffcb")
-	)
-	(wire
-		(pts
 			(xy 217.17 104.14) (xy 219.71 104.14)
 		)
 		(stroke
@@ -4646,6 +4640,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 57.15) (xy 182.88 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4258fddd-2624-48b0-88b1-56aa5ba5c7c1")
+	)
+	(wire
+		(pts
 			(xy 219.71 106.68) (xy 195.58 106.68)
 		)
 		(stroke
@@ -4693,16 +4697,6 @@
 			(type default)
 		)
 		(uuid "4d771f69-cb5c-4c6f-82c6-08626bd8ddf2")
-	)
-	(wire
-		(pts
-			(xy 154.94 52.07) (xy 163.83 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e703e57-e79f-4dc5-933b-c08fe4b99458")
 	)
 	(wire
 		(pts
@@ -4806,7 +4800,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 52.07) (xy 187.96 52.07)
+			(xy 173.99 52.07) (xy 182.88 52.07)
 		)
 		(stroke
 			(width 0)
@@ -4826,7 +4820,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 52.07) (xy 187.96 53.34)
+			(xy 191.77 52.07) (xy 191.77 53.34)
 		)
 		(stroke
 			(width 0)
@@ -4893,16 +4887,6 @@
 			(type default)
 		)
 		(uuid "7f361651-77c8-4923-b9ab-8a8ff24bd190")
-	)
-	(wire
-		(pts
-			(xy 187.96 63.5) (xy 191.77 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fe40bca-dd82-479d-9ae4-abcaf3fec4eb")
 	)
 	(wire
 		(pts
@@ -4976,6 +4960,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.5367 52.07) (xy 163.5367 52.5896)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bee2731-e69f-4958-b3da-c3594e803d53")
+	)
+	(wire
+		(pts
 			(xy 219.71 91.44) (xy 195.58 91.44)
 		)
 		(stroke
@@ -5026,13 +5020,13 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 52.07) (xy 191.77 53.34)
+			(xy 163.5367 52.07) (xy 165.1 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "98d6c072-c54d-4855-850b-9ac9990da803")
+		(uuid "970ea572-2887-448c-8ae1-6497bfc1850f")
 	)
 	(wire
 		(pts
@@ -5116,23 +5110,13 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 52.07) (xy 163.83 54.61)
+			(xy 168.6167 52.5896) (xy 168.6167 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b5aa7140-f1ab-482e-9661-4ec756c894e6")
-	)
-	(wire
-		(pts
-			(xy 191.77 52.07) (xy 187.96 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7c6e78d-fe71-4d85-bca5-a8b4c1952e2f")
+		(uuid "b68777a7-8ac5-4cac-bb00-755d67677c4c")
 	)
 	(wire
 		(pts
@@ -5173,6 +5157,16 @@
 			(type default)
 		)
 		(uuid "c5b2ab00-e4f4-4f7a-84c2-fef4e1d1eda4")
+	)
+	(wire
+		(pts
+			(xy 163.5367 52.5896) (xy 168.6167 52.5896)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cca89f6d-db83-47a6-a764-4f33d2658ac5")
 	)
 	(wire
 		(pts
@@ -5276,6 +5270,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 52.07) (xy 191.77 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "def9dfad-159f-4d4a-aeec-36e296516ff1")
+	)
+	(wire
+		(pts
 			(xy 204.47 83.82) (xy 204.47 82.55)
 		)
 		(stroke
@@ -5306,7 +5310,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 63.5) (xy 187.96 58.42)
+			(xy 191.77 63.5) (xy 191.77 58.42)
 		)
 		(stroke
 			(width 0)
@@ -5396,7 +5400,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 63.5) (xy 187.96 63.5)
+			(xy 173.99 63.5) (xy 191.77 63.5)
 		)
 		(stroke
 			(width 0)
@@ -5642,6 +5646,17 @@
 				)
 			)
 		)
+		(property "Part Number" "CL21A106KAYNNNE"
+			(at 111.76 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "55ccc28a-5571-427b-ac62-522613a5bc42")
 		)
@@ -5811,6 +5826,17 @@
 				)
 			)
 		)
+		(property "Part Number" "RC0603FR-075K1L"
+			(at 186.69 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3bd5c7ae-cdd5-40be-adb2-3f615be70736")
 		)
@@ -5848,7 +5874,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "10u"
 			(at 44.45 80.0162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5893,6 +5919,17 @@
 			)
 		)
 		(property "Voltage Rating" "25"
+			(at 46.99 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CL21A106KAYNNNE"
 			(at 46.99 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -6150,6 +6187,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 182.88 54.61 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "2c93880f-8925-4944-a965-ee8176fcd6a0")
+		(property "Reference" "C5"
+			(at 184.658 53.848 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10p"
+			(at 184.404 56.134 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 182.88 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 182.88 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 182.88 54.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CL05A104KA5NNNC"
+			(at 182.88 54.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a5296cd4-4709-4169-96a9-014791781977")
+		)
+		(pin "1"
+			(uuid "8285ac0c-76f5-46ab-a327-8e8d3e96568a")
+		)
+		(instances
+			(project "ROV_PCIe_Adapter"
+				(path "/faade8da-e392-46d5-a472-2dd56df84fef"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 144.78 64.77 0)
 		(unit 1)
@@ -6382,6 +6523,17 @@
 				)
 			)
 		)
+		(property "Part Number" "CL05B104KA5NNNC"
+			(at 50.8 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7e63a3cb-4a10-4522-8bbe-b11b1cf402b5")
 		)
@@ -6476,9 +6628,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 160.02 54.61 270)
-		(mirror x)
+		(lib_id "Device:R_Small_US")
+		(at 160.02 54.61 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6486,30 +6637,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "52a427ba-83b1-4206-b3e7-7e7cccf95875")
-		(property "Reference" "C3"
-			(at 159.004 56.134 90)
+		(uuid "4db5dd22-38f1-40df-85c7-65edd2dee69b")
+		(property "Reference" "R5"
+			(at 158.496 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 166.37 56.134 90)
+		(property "Value" "0R"
+			(at 163.83 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 160.02 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -6531,7 +6682,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "Resistor, small US symbol"
 			(at 160.02 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -6542,8 +6693,19 @@
 				)
 			)
 		)
-		(property "Voltage Rating" "10"
-			(at 160.02 54.61 90)
+		(property "Voltage Rating" ""
+			(at 160.02 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "RC0402JR-070RL"
+			(at 160.02 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6554,15 +6716,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "1e8ffd18-a0ce-4875-972b-272ab101428d")
+			(uuid "c355e6e7-0241-4462-9322-159fc05d1a09")
 		)
 		(pin "1"
-			(uuid "5daee17e-cf00-49da-9930-e25becd77e19")
+			(uuid "53ae0a20-f6f6-489f-9ba5-400b7013cc4a")
 		)
 		(instances
 			(project "ROV_PCIe_Adapter"
 				(path "/faade8da-e392-46d5-a472-2dd56df84fef"
-					(reference "C3")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -6635,7 +6797,18 @@
 				)
 			)
 		)
-		(property "Voltage Rating" "10"
+		(property "Voltage Rating" "25"
+			(at 204.47 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CL05B104KA5NNNC"
 			(at 204.47 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -6739,6 +6912,17 @@
 				)
 			)
 		)
+		(property "Part Number" "CL05B104KA5NNNC"
+			(at 121.92 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1b643e4a-4af4-4833-8092-6e10302bbfb1")
 		)
@@ -6749,6 +6933,109 @@
 			(project "ROV_PCIe_Adapter"
 				(path "/faade8da-e392-46d5-a472-2dd56df84fef"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 166.37 54.61 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6194a155-8d46-4ffa-83b9-902826e6e7f9")
+		(property "Reference" "C3"
+			(at 165.354 55.626 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 171.958 55.88 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 166.37 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 166.37 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" "25"
+			(at 166.37 54.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CL05B104KA5NNNC"
+			(at 166.37 54.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c8f685ca-71b9-45ea-8a63-66b9a9da8114")
+		)
+		(pin "1"
+			(uuid "d0313508-51e6-48f3-b336-0907b6d258c5")
+		)
+		(instances
+			(project "ROV_PCIe_Adapter"
+				(path "/faade8da-e392-46d5-a472-2dd56df84fef"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -6989,6 +7276,17 @@
 				)
 			)
 		)
+		(property "Part Number" "525591652"
+			(at 219.71 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "10"
 			(uuid "ca3a72c5-7bbf-4c87-927a-20bde0fe1175")
 		)
@@ -7113,6 +7411,17 @@
 			)
 		)
 		(property "Voltage Rating" ""
+			(at 173.99 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "RC0603FR-0710KL"
 			(at 173.99 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -7300,7 +7609,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -7362,6 +7671,17 @@
 			)
 		)
 		(property "Voltage Rating" ""
+			(at 73.66 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
 			(at 73.66 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -7874,6 +8194,17 @@
 				)
 			)
 		)
+		(property "Part Number" "RC0603FR-0710KL"
+			(at 186.69 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3082a4eb-ac64-43c6-a8a1-a9803769cd2a")
 		)
@@ -7956,6 +8287,17 @@
 			)
 		)
 		(property "Voltage Rating" "25"
+			(at 107.95 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CL21A106KAYNNNE"
 			(at 107.95 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -8135,6 +8477,17 @@
 				)
 			)
 		)
+		(property "Part Number" "TPS563201DDCR"
+			(at 144.78 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "cca3e6d4-5a0d-4e2b-9ed7-c529ea369243")
 		)
@@ -8157,99 +8510,6 @@
 			(project "ROV_PCIe_Adapter"
 				(path "/faade8da-e392-46d5-a472-2dd56df84fef"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 191.77 55.88 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d27cc409-3890-461e-8daa-92acf5620e6e")
-		(property "Reference" "C5"
-			(at 194.31 54.6162 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "22u"
-			(at 194.31 57.1562 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 191.77 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 191.77 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage Rating" "10"
-			(at 191.77 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b68729cf-31a1-46e9-920a-053e15c65bbd")
-		)
-		(pin "1"
-			(uuid "b6642104-105a-48e6-b8d3-b162264a605f")
-		)
-		(instances
-			(project "ROV_PCIe_Adapter"
-				(path "/faade8da-e392-46d5-a472-2dd56df84fef"
-					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -8330,6 +8590,17 @@
 				)
 			)
 		)
+		(property "Part Number" "BWVC005050403R3M00"
+			(at 168.91 52.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7d818039-98eb-4f22-9cf9-1027816a3569")
 		)
@@ -8347,7 +8618,8 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 187.96 55.88 0)
+		(at 191.77 55.88 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8357,7 +8629,7 @@
 		(dnp no)
 		(uuid "e1126bc4-23ed-4fa4-ba14-55bfd5c0d37d")
 		(property "Reference" "C4"
-			(at 185.42 54.6162 0)
+			(at 194.31 54.6162 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8368,7 +8640,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 185.42 57.1562 0)
+			(at 194.31 57.1562 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8379,7 +8651,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 187.96 55.88 0)
+			(at 191.77 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8390,7 +8662,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 55.88 0)
+			(at 191.77 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8401,7 +8673,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 187.96 55.88 0)
+			(at 191.77 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8411,8 +8683,19 @@
 				)
 			)
 		)
-		(property "Voltage Rating" "10"
-			(at 187.96 55.88 0)
+		(property "Voltage Rating" "25"
+			(at 191.77 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CL21A226MAQNNNE"
+			(at 191.77 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8460,7 +8743,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "MF-MSMF150/12-2"
+		(property "Value" "MF-MSMF150/12X-2"
 			(at 219.71 71.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8506,6 +8789,17 @@
 			)
 		)
 		(property "Voltage Rating" ""
+			(at 217.17 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "MF-MSMF150/12X-2"
 			(at 217.17 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -8597,7 +8891,18 @@
 				)
 			)
 		)
-		(property "Voltage Rating" "10"
+		(property "Voltage Rating" "25"
+			(at 200.66 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CL21A226MAQNNNE"
 			(at 200.66 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -8767,6 +9072,17 @@
 			)
 		)
 		(property "Voltage Rating" ""
+			(at 173.99 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "RC0603FR-0756K2L"
 			(at 173.99 54.61 0)
 			(hide yes)
 			(show_name no)

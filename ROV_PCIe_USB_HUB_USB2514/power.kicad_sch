@@ -2791,7 +2791,7 @@
 				)
 			)
 		)
-		(property "Part Number" "CL05B104KO5NNNC"
+		(property "Part Number" "CC0402KRX7R8BB104"
 			(at 106.68 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -2851,7 +2851,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 175.26 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -2906,7 +2906,7 @@
 				)
 			)
 		)
-		(property "Part Number" "CL21A226MOQNNNE"
+		(property "Part Number" "CC1206KKX5R8BB226"
 			(at 175.26 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -3080,7 +3080,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 175.26 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -3135,7 +3135,7 @@
 				)
 			)
 		)
-		(property "Part Number" "CL21A226MOQNNNE"
+		(property "Part Number" "CC1206KKX5R8BB226"
 			(at 175.26 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -3364,7 +3364,7 @@
 				)
 			)
 		)
-		(property "Part Number" "CL21A106KOQNNNE "
+		(property "Part Number" "CC0805KRX5R8BB106"
 			(at 101.6 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -4627,7 +4627,7 @@
 				)
 			)
 		)
-		(property "Part Number" "CL21A106KOQNNNE "
+		(property "Part Number" "CC0805KRX5R8BB106"
 			(at 101.6 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -4869,7 +4869,7 @@
 				)
 			)
 		)
-		(property "Part Number" "CL05B104KO5NNNC"
+		(property "Part Number" "CC0402KRX7R8BB104"
 			(at 106.68 123.19 0)
 			(hide yes)
 			(show_name no)

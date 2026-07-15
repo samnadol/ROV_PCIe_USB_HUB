@@ -64,7 +64,7 @@
           "min_clearance": 0.0,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 1,
+          "pad_connection": 3,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
@@ -83,10 +83,6 @@
         }
       ],
       "drc_exclusions": [
-        [
-          "lib_footprint_mismatch|187420000|99920000|65a08b48-d150-4d31-89b8-f7381a65e802|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
         [
           "silk_edge_clearance|238500000|121540000|29278d6f-08d9-4e54-9e79-372b833cf96c|eb57439e-eb16-4b90-9709-dc31175078c0",
           ""
@@ -966,7 +962,7 @@
         "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       }
     ],
-    "used_designators": "J1-17,J101,J401-410,#FLG1,R1-38,R101-103,R201-208,R301-306,R401-415,H1-3,H101-103,L1-2,L301-302,U1-21,U201-202,U301-302,U401-404,FB1-3,FB201,C1-69,C101-102,C201-223,C301-310,C401-417,D1-12,D401-405,#PWR1-67,#PWR101-102,#PWR201-210,#PWR301-309,#PWR401-428,Y1-4,Y201,Y401,TP1,TP401,P1,JP1-2,JP401,Us1,Q1",
+    "used_designators": "J1-17,J101,J401-410,#FLG1,R1-38,R101-103,R201-208,R301-306,R401-415,H1-3,H101-103,L1-2,L301-302,FB1-3,FB201,C1-69,C101-102,C201-223,C301-310,C401-417,U1-21,U201-202,U301-302,U401-404,#PWR1-67,#PWR101-102,#PWR201-210,#PWR301-309,#PWR401-428,D1-12,D401-405,Y1-4,Y201,Y401,TP1,TP401,Us1,P1,JP1-2,JP401,Q1",
     "variants": []
   },
   "sheets": [
