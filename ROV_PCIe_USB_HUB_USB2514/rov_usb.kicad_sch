@@ -214,6 +214,164 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -943,7 +1101,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:AO3401A"
+		(symbol "Transistor_FET:DMP3013SFV"
 			(pin_names
 				(hide yes)
 			)
@@ -963,7 +1121,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "AO3401A"
+			(property "Value" "DMP3013SFV"
 				(at 5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -974,7 +1132,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(property "Footprint" "Package_SON:Diodes_PowerDI3333-8"
 				(at 5.08 -1.905 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -987,7 +1145,7 @@
 					(justify left)
 				)
 			)
-			(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMP3013SFV.pdf"
 				(at 5.08 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -999,7 +1157,7 @@
 					(justify left)
 				)
 			)
-			(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+			(property "Description" "-12A Id, -30V Vds, P-Channel Power MOSFET, 9.5mOhm Ron, 33.7nC Qg (typ), PowerDI3333-8"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1021,7 +1179,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "SOT?23*"
+			(property "ki_fp_filters" "Diodes*PowerDI3333*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1032,7 +1190,7 @@
 					)
 				)
 			)
-			(symbol "AO3401A_0_1"
+			(symbol "DMP3013SFV_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -1199,11 +1357,11 @@
 					)
 				)
 			)
-			(symbol "AO3401A_1_1"
-				(pin input line
-					(at -5.08 0 0)
+			(symbol "DMP3013SFV_1_1"
+				(pin passive line
+					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "G"
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1221,6 +1379,7 @@
 				(pin passive line
 					(at 2.54 -5.08 90)
 					(length 2.54)
+					(hide yes)
 					(name "S"
 						(effects
 							(font
@@ -1229,6 +1388,43 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1246,7 +1442,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3714,16 +3910,6 @@
 		)
 		(uuid "6001ba73-2066-45f2-a9c1-a75ca6cb731e")
 	)
-	(text "DMP3013SFV for less Rds_on"
-		(exclude_from_sim no)
-		(at 119.634 121.412 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "7f7b91c8-89ab-4344-ab75-766fd55be591")
-	)
 	(junction
 		(at 111.76 142.24)
 		(diameter 0)
@@ -3813,6 +3999,14 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f6b02b10-dc2a-4e3a-b35f-db97112b2c94")
+	)
+	(no_connect
+		(at 71.12 140.97)
+		(uuid "90a1f96c-08aa-4acb-92a8-ca492844ef93")
+	)
+	(no_connect
+		(at 71.12 138.43)
+		(uuid "f04641fc-4e19-4396-9bdd-01606950ce32")
 	)
 	(wire
 		(pts
@@ -5132,6 +5326,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 76.2 138.43 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
+		(uuid "4e648397-2e61-44f7-ac94-d8da6c56abd6")
+		(property "Reference" "J3"
+			(at 75.184 144.272 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "691351500002"
+			(at 78.74 140.9699 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 76.2 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "691351500002"
+			(at 76.2 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f4d0cf4f-9461-485e-9852-d483c45e4d25")
+		)
+		(pin "1"
+			(uuid "696cf9ae-9128-49d5-9264-419d515cbbf5")
+		)
+		(instances
+			(project "rov_usb"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 48.26 36.83 0)
 		(unit 1)
@@ -5218,7 +5505,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "583e058e-fb16-43a7-ac29-75c50b6bd932")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR04"
 			(at 111.76 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -5278,105 +5565,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR067")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:AO3401A")
-		(at 111.76 133.35 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6a8d6c8c-e649-40a7-89d9-208fd4d877ca")
-		(property "Reference" "Q1"
-			(at 109.728 127 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AO3401A"
-			(at 121.666 127.254 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 113.665 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
-			(at 115.57 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
-			(at 111.76 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "AO3401A"
-			(at 111.76 133.35 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e01135da-abc0-4250-8d9c-d3688c219ba9")
-		)
-		(pin "2"
-			(uuid "e7d9a1e0-284f-46ba-b252-9a5c11c8d2f2")
-		)
-		(pin "3"
-			(uuid "da8a4cb1-86cc-409e-8df5-eadb4161c767")
-		)
-		(instances
-			(project "rov_usb"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "Q1")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -5394,7 +5583,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8468cd7c-a71b-48f1-96d7-3bbe533884a3")
-		(property "Reference" "R35"
+		(property "Reference" "R4"
 			(at 114.3 144.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5469,7 +5658,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R35")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -5487,7 +5676,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a2a9ea10-9aaa-4aaa-b2a6-c85b042f28ad")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR03"
 			(at 132.08 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -5547,7 +5736,110 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR026")
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:DMP3013SFV")
+		(at 111.76 133.35 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a352c359-bf23-4350-9bf4-d32aa71436b7")
+		(property "Reference" "Q1"
+			(at 111.76 124.46 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DMP3018SFV"
+			(at 111.76 127 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SON:Diodes_PowerDI3333-8"
+			(at 113.665 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMP3013SFV.pdf"
+			(at 115.57 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "-12A Id, -30V Vds, P-Channel Power MOSFET, 9.5mOhm Ron, 33.7nC Qg (typ), PowerDI3333-8"
+			(at 111.76 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "DMP3018SFV"
+			(at 111.76 133.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "88d801e3-a58a-4f26-826a-ce7d0df11f74")
+		)
+		(pin "4"
+			(uuid "4da43726-a6b3-4266-b9e3-55ea151c4d87")
+		)
+		(pin "3"
+			(uuid "0b51f393-89e9-4ca7-bd0c-a7710bbe6d00")
+		)
+		(pin "5"
+			(uuid "89515f5b-c7f0-4dc7-a25f-e6fea888bf69")
+		)
+		(pin "1"
+			(uuid "451b64b4-e29b-47aa-909c-a79376004172")
+		)
+		(instances
+			(project "rov_usb"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -5565,7 +5857,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf186858-9997-475d-85ec-5a18dafafe06")
-		(property "Reference" "D7"
+		(property "Reference" "D1"
 			(at 91.44 134.6199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5640,7 +5932,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "D7")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -5849,7 +6141,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "d831585a-7cbd-4506-8b77-245cab0318ed")
-		(property "Reference" "D8"
+		(property "Reference" "D2"
 			(at 121.92 135.8899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5913,7 +6205,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "D8")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -6142,7 +6434,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f56dbb47-8a6e-4d26-b034-08413af05ca2")
-		(property "Reference" "H3"
+		(property "Reference" "H2"
 			(at 271.272 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6223,7 +6515,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "H3")
+					(reference "H2")
 					(unit 1)
 				)
 			)

@@ -2444,7 +2444,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50b81775-2fe0-4380-bd7d-6773ba2a625f")
-		(property "Reference" "R14"
+		(property "Reference" "R15"
 			(at 153.67 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2541,7 +2541,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/894a28e8-d816-4717-bdb5-e6633a8bfe56"
-					(reference "R14")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -2558,7 +2558,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5378eea3-15a8-4aae-b8b2-e4c6d571cf67")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR019"
 			(at 130.81 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -2618,7 +2618,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/894a28e8-d816-4717-bdb5-e6633a8bfe56"
-					(reference "#PWR017")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -2636,7 +2636,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "60667966-ed99-4658-add7-5951536b12d3")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR026"
 			(at 119.38 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -2696,7 +2696,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/894a28e8-d816-4717-bdb5-e6633a8bfe56"
-					(reference "#PWR024")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -2943,7 +2943,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7133da82-001d-4c7c-9a77-ff97c319a6c4")
-		(property "Reference" "R16"
+		(property "Reference" "R17"
 			(at 133.35 104.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3040,7 +3040,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/894a28e8-d816-4717-bdb5-e6633a8bfe56"
-					(reference "R16")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -3173,7 +3173,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78368256-edec-489c-a74d-ac66406d4994")
-		(property "Reference" "R18"
+		(property "Reference" "R19"
 			(at 153.67 123.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3270,7 +3270,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/894a28e8-d816-4717-bdb5-e6633a8bfe56"
-					(reference "R18")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -3401,7 +3401,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "80dea41d-ca28-4d3c-89aa-8282957319a8")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR024"
 			(at 106.68 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -3461,7 +3461,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/894a28e8-d816-4717-bdb5-e6633a8bfe56"
-					(reference "#PWR022")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -3478,7 +3478,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "835a8326-78d9-4f3a-9013-d98e77f3105b")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR020"
 			(at 106.68 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -3538,7 +3538,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/894a28e8-d816-4717-bdb5-e6633a8bfe56"
-					(reference "#PWR018")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -3556,7 +3556,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "84cc7ff8-b9ca-4565-91ca-0bfae69d3896")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR022"
 			(at 119.38 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -3616,7 +3616,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/894a28e8-d816-4717-bdb5-e6633a8bfe56"
-					(reference "#PWR020")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -3633,7 +3633,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8e9ef5ae-f973-4638-954d-dc5472295fc5")
-		(property "Reference" "R13"
+		(property "Reference" "R14"
 			(at 133.35 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3730,7 +3730,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/894a28e8-d816-4717-bdb5-e6633a8bfe56"
-					(reference "R13")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -3748,7 +3748,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e4c6340-c276-4d26-83e5-2b0b9562a2be")
-		(property "Reference" "R17"
+		(property "Reference" "R18"
 			(at 153.67 115.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3845,7 +3845,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/894a28e8-d816-4717-bdb5-e6633a8bfe56"
-					(reference "R17")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -4093,7 +4093,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2ae42f4-ae82-4403-b0a9-275bf6f1b11c")
-		(property "Reference" "R15"
+		(property "Reference" "R16"
 			(at 153.67 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4190,7 +4190,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/894a28e8-d816-4717-bdb5-e6633a8bfe56"
-					(reference "R15")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -4319,7 +4319,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cb6f4cc3-694d-42c9-a8b5-f23823191f45")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR021"
 			(at 175.26 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -4379,7 +4379,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/894a28e8-d816-4717-bdb5-e6633a8bfe56"
-					(reference "#PWR019")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -4396,7 +4396,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cce6a9bd-741d-4d6b-b3d8-d76f12db6701")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR023"
 			(at 130.81 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -4456,7 +4456,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/894a28e8-d816-4717-bdb5-e6633a8bfe56"
-					(reference "#PWR021")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -4473,7 +4473,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d3e4cf59-a2b0-46ef-998c-493400f50db6")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR025"
 			(at 175.26 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -4533,7 +4533,7 @@
 		(instances
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/894a28e8-d816-4717-bdb5-e6633a8bfe56"
-					(reference "#PWR023")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
