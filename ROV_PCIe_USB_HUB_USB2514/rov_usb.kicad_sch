@@ -5365,7 +5365,7 @@
 		(at 76.2 138.43 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
 		(in_pos_files no)
@@ -6460,7 +6460,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 267.97 138.43 0)
+		(at 267.97 134.62 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6470,7 +6470,7 @@
 		(dnp no)
 		(uuid "f56dbb47-8a6e-4d26-b034-08413af05ca2")
 		(property "Reference" "H2"
-			(at 271.272 138.43 0)
+			(at 271.272 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6481,7 +6481,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 270.51 139.6999 0)
+			(at 270.51 135.8899 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6493,7 +6493,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 267.97 138.43 0)
+			(at 267.97 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6504,7 +6504,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 267.97 138.43 0)
+			(at 267.97 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6515,7 +6515,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 267.97 138.43 0)
+			(at 267.97 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6526,7 +6526,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 267.97 138.43 0)
+			(at 267.97 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6537,7 +6537,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 267.97 138.43 0)
+			(at 267.97 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
