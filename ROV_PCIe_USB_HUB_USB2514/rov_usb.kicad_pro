@@ -560,8 +560,12 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "ROV_PCIe_USB_HUB"
+    ],
+    "pinned_symbol_libs": [
+      "ROV_PCIe_USB_HUB"
+    ]
   },
   "meta": {
     "filename": "rov_usb.kicad_pro",
@@ -962,7 +966,7 @@
         "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       }
     ],
-    "used_designators": "J1-17,J101,J401-410,#FLG1,R1-38,R101-103,R201-208,R301-306,R401-415,H1-3,H101-103,L1-2,L301-302,FB1-3,FB201,C1-69,C101-102,C201-223,C301-310,C401-417,U1-21,U201-202,U301-302,U401-404,#PWR1-67,#PWR101-102,#PWR201-210,#PWR301-309,#PWR401-428,D1-12,D401-405,Y1-4,Y201,Y401,TP1,TP401,Us1,P1,JP1-2,JP401,Q1",
+    "used_designators": "#FLG1,R1-38,R101-103,R201-208,R301-306,R401-415,J1-17,J101,J401-410,H1-3,H101-103,L1-2,L301-302,FB1-3,FB201,C1-69,C101-102,C201-223,C301-310,C401-417,U1-21,U201-202,U301-302,U401-404,#PWR1-67,#PWR101-102,#PWR201-210,#PWR301-309,#PWR401-428,D1-12,D401-405,Y1-4,Y201,Y401,TP1,TP401,Us1,P1,JP1-2,JP401,Q1",
     "variants": []
   },
   "sheets": [

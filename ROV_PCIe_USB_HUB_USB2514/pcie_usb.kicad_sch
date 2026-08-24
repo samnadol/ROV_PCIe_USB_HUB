@@ -729,261 +729,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3.3V"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+3.3V"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+3.3V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:GND"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "snadol:SST25VF512A-33-4C-SAE"
+		(symbol "ROV_PCIe_USB_HUB:SST25VF512A-33-4C-SAE"
 			(pin_names
 				(offset 0.254)
 			)
@@ -1012,8 +758,8 @@
 					)
 				)
 			)
-			(property "Footprint" "snadol:SST25VF512A"
-				(at 14.732 -11.43 0)
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at 22.352 -10.922 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1024,7 +770,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "sst25vf512a-33-4c-sae"
+			(property "Datasheet" "SST25VF512A-33-4C-SAE"
 				(at 14.478 -8.636 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1228,7 +974,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "snadol:UPD720201K8-7x1-BAC-A"
+		(symbol "ROV_PCIe_USB_HUB:UPD720201K8-7x1-BAC-A"
 			(pin_names
 				(offset 0.254)
 			)
@@ -1257,7 +1003,7 @@
 					)
 				)
 			)
-			(property "Footprint" "snadol:QFN68_8X8_REN"
+			(property "Footprint" "ROV_PCIe_USB_HUB:QFN-68-1EP_8x8mm_P0.4mm_EP6.2x6.2mm"
 				(at -23.876 -52.578 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2563,6 +2309,260 @@
 						)
 					)
 					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3.3V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9524,7 +9524,108 @@
 		)
 	)
 	(symbol
-		(lib_id "snadol:UPD720201K8-7x1-BAC-A")
+		(lib_id "ROV_PCIe_USB_HUB:SST25VF512A-33-4C-SAE")
+		(at 55.88 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b940c7e4-a084-40be-b520-e67f83e11531")
+		(property "Reference" "U2"
+			(at 52.832 114.808 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SST25VF512A-33-4C-SAE"
+			(at 53.086 117.602 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 78.232 117.602 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "SST25VF512A-33-4C-SAE"
+			(at 70.358 115.316 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "fb67a663-fc7d-44c3-b57b-5bed81a2fb5f")
+		)
+		(pin "5"
+			(uuid "7e9ed9d0-61b3-4c03-8d44-3c35a6ff3c60")
+		)
+		(pin "1"
+			(uuid "1178af69-6f94-4ed0-af1c-e0f7e6cdd43b")
+		)
+		(pin "8"
+			(uuid "2324b2f8-99d5-4d5d-b9a7-515ca60ddaa1")
+		)
+		(pin "3"
+			(uuid "0adfa509-b89c-4fdf-a966-dad386804065")
+		)
+		(pin "4"
+			(uuid "21a9abed-ef91-41f0-9cbf-51d25e341e4d")
+		)
+		(pin "6"
+			(uuid "8bba47a6-f7f6-4540-bb3f-b726519383fb")
+		)
+		(pin "2"
+			(uuid "623dc62f-e270-46a5-9d0a-0c104cad5f7f")
+		)
+		(instances
+			(project "rov_usb"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/49ca2e40-2d13-4810-89b0-6bfff32416b9"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ROV_PCIe_USB_HUB:UPD720201K8-7x1-BAC-A")
 		(at 163.83 100.33 0)
 		(unit 1)
 		(body_style 1)
@@ -9533,9 +9634,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "a99bd4ef-2337-4d22-b597-7d353c93787f")
+		(fields_autoplaced yes)
+		(uuid "bc3045d0-032e-4597-82a1-c83650bbcc61")
 		(property "Reference" "U1"
-			(at 125.73 150.876 0)
+			(at 165.9733 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9545,8 +9647,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "UPD720201K8-701-BAC-A"
-			(at 167.64 151.13 0)
+		(property "Value" "UPD720201K8-7x1-BAC-A"
+			(at 165.9733 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9556,7 +9658,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "snadol:QFN68_8X8_REN"
+		(property "Footprint" "ROV_PCIe_USB_HUB:QFN-68-1EP_8x8mm_P0.4mm_EP6.2x6.2mm"
 			(at 139.954 152.908 0)
 			(hide yes)
 			(show_name no)
@@ -9591,245 +9693,212 @@
 				)
 			)
 		)
-		(property "Part Number" "UPD720201K8-701-BAC-A"
-			(at 163.83 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 163.83 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 163.83 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "22"
-			(uuid "14898717-a021-435e-a762-38ad113582f1")
-		)
-		(pin "24"
-			(uuid "9451b0bb-8150-45fc-aae4-f7698bd7f5ea")
-		)
-		(pin "48"
-			(uuid "e2e69848-efd3-464e-bfaf-267a9ca7c3ce")
-		)
-		(pin "50"
-			(uuid "602d79db-b48c-4727-8253-0050bfb919ef")
-		)
-		(pin "52"
-			(uuid "e31a16a1-02f5-4116-8842-e6acd2bda7db")
-		)
-		(pin "3"
-			(uuid "2db1312b-3d9e-47f8-a4ac-08da2f983848")
-		)
-		(pin "16"
-			(uuid "0323094b-9f9e-40f0-992e-c575af9f29aa")
-		)
-		(pin "20"
-			(uuid "42f04950-445b-4619-b842-3c646db328cc")
-		)
-		(pin "11"
-			(uuid "4dde4b96-4c76-467b-9896-1c8d683db681")
-		)
-		(pin "7"
-			(uuid "b27ea714-5026-4e0a-bfac-acda29e366a6")
-		)
-		(pin "30"
-			(uuid "6042c2b0-4e84-47b4-9e15-cd0018080388")
-		)
-		(pin "32"
-			(uuid "e231163c-684e-42fe-9e43-a87c05bcc5ee")
+		(pin "17"
+			(uuid "ee702582-df03-4d2d-b90c-573e6b4ed3ec")
 		)
 		(pin "6"
-			(uuid "15710d3b-313f-4801-a8a0-6084552eb78b")
+			(uuid "920ef9fe-afa9-4ce0-92af-47857517e1e5")
 		)
-		(pin "21"
-			(uuid "1122655d-0289-40eb-84d4-cb9187722293")
-		)
-		(pin "23"
-			(uuid "e1a1475d-8a29-4142-bdd9-5beb75c8b62e")
+		(pin "7"
+			(uuid "d819ad0d-a191-4cd3-a05c-bbcdb198641a")
 		)
 		(pin "1"
-			(uuid "f8a6e3f5-71af-4d5b-85ec-a6f0cba3c43d")
+			(uuid "8d37baf5-f166-4b39-9f8a-a1b46707b2bf")
 		)
 		(pin "4"
-			(uuid "2d2d3273-f5ab-4b6c-97e2-1f2a12a46b0e")
-		)
-		(pin "33"
-			(uuid "4f693678-5803-44f6-b1e7-4c99b18b4c68")
-		)
-		(pin "28"
-			(uuid "0776dab9-e81a-4b9b-bfae-35fa67158122")
-		)
-		(pin "18"
-			(uuid "98cd1072-1b47-4215-920a-f16f9a59da1e")
-		)
-		(pin "34"
-			(uuid "013b46b8-0724-490c-96d3-fad74fd7a072")
-		)
-		(pin "13"
-			(uuid "c56ef755-2ffc-48c9-98cd-c58bf1065726")
-		)
-		(pin "36"
-			(uuid "97f4fdea-a12e-4c46-8173-2047593e5443")
-		)
-		(pin "37"
-			(uuid "736c966e-22e0-457f-8ef2-a4270f231145")
-		)
-		(pin "8"
-			(uuid "0cdf1694-4394-46a6-9e01-b46bc5a6caeb")
-		)
-		(pin "38"
-			(uuid "ec7a741f-a86e-48a9-8870-6c45580f99d4")
-		)
-		(pin "19"
-			(uuid "db5a34e3-8523-46df-b1de-8063c542fc85")
-		)
-		(pin "14"
-			(uuid "04a4ec1b-0c58-4922-99e4-a389d7c7eac8")
-		)
-		(pin "26"
-			(uuid "6ea680cf-de08-45cf-a3af-379008598e9f")
-		)
-		(pin "31"
-			(uuid "a62c00c8-9198-44b2-bf1e-ff7825e273e9")
-		)
-		(pin "12"
-			(uuid "4e322e0e-973e-412a-bf4d-f9a36c323008")
-		)
-		(pin "35"
-			(uuid "67df229c-ba17-4bee-9493-ef69f6ce35ec")
-		)
-		(pin "29"
-			(uuid "4221c90c-f4a5-4a58-bbe2-e2c6ff6485de")
-		)
-		(pin "25"
-			(uuid "78832478-8d1c-4bfc-964b-7a080030d3e1")
-		)
-		(pin "27"
-			(uuid "144d41e0-f7f1-40f8-9bad-025933101b69")
-		)
-		(pin "40"
-			(uuid "9a00fa38-41f8-4b60-87e4-c7e0ae1bdecf")
-		)
-		(pin "2"
-			(uuid "a736475c-c56c-4d74-b046-335f674364bc")
+			(uuid "fa2ef1b3-0912-4185-8bad-a31f17ec7d24")
 		)
 		(pin "9"
-			(uuid "66090626-8548-47e1-b4e6-23edbc984605")
+			(uuid "23299f61-9112-44ac-8af0-08a4ad80aa27")
 		)
-		(pin "39"
-			(uuid "c0d872ff-727b-4c7d-9728-097a4d469c87")
+		(pin "8"
+			(uuid "c5886614-2be2-43b5-b4d6-0c6be8bd68cb")
 		)
-		(pin "41"
-			(uuid "61a569fd-b5c8-4029-883e-b94c4500cd9e")
-		)
-		(pin "42"
-			(uuid "7a02362f-bfee-456f-b3aa-ea30bc30896e")
-		)
-		(pin "43"
-			(uuid "e62a602f-6536-427e-88ca-474ef309fe36")
-		)
-		(pin "44"
-			(uuid "72819ca9-8038-4fa8-9864-205c8b6763ab")
+		(pin "3"
+			(uuid "b99e03e1-dbe8-4748-9b62-d177f5011771")
 		)
 		(pin "10"
-			(uuid "5f9e2f9a-e8ec-44f4-ac03-4038a60e2222")
+			(uuid "d7673e3c-fbb2-4d5d-aef0-b64547f0b878")
 		)
-		(pin "45"
-			(uuid "c057409b-679e-434e-9297-0cfa95c018b1")
+		(pin "11"
+			(uuid "32665dfe-738f-4d8e-b67e-98132634ee51")
 		)
-		(pin "17"
-			(uuid "d9dc6df2-87a5-4d0c-8231-dbe1d3e2f3d1")
+		(pin "12"
+			(uuid "457be33a-4940-4841-a739-3f375db70e87")
 		)
-		(pin "5"
-			(uuid "9b7099da-ff6b-4eb9-bae9-fb809dee2ea9")
+		(pin "13"
+			(uuid "515c290b-c55e-45ad-89e5-06d81f3ec4c2")
+		)
+		(pin "14"
+			(uuid "26f2282e-f8b7-4985-ac26-096e17efc1d0")
 		)
 		(pin "15"
-			(uuid "d7187641-fc7e-412a-bd0a-adfc8541d31f")
+			(uuid "611f316c-6f76-44e6-ae02-fb607334f7dd")
 		)
-		(pin "46"
-			(uuid "8b6a21d7-390b-4535-95a2-2102dad6b8cf")
+		(pin "16"
+			(uuid "b3fdd4c3-ff6f-4851-a361-b463ac72bef7")
 		)
-		(pin "47"
-			(uuid "d4db3224-0ea3-4f4f-9d5a-a93425b90846")
+		(pin "2"
+			(uuid "8ceddcc0-87d6-49c0-b6ca-14f492f36a26")
 		)
-		(pin "49"
-			(uuid "b3dd1044-7b65-43e9-9bf9-6159ed9f25c4")
+		(pin "5"
+			(uuid "bf0d0984-2460-49f5-a574-eb9cd59e901e")
 		)
-		(pin "51"
-			(uuid "4a6175cb-c1ef-495a-82cd-58a3cb6545ae")
+		(pin "20"
+			(uuid "188d44ed-7a21-42c6-94cb-7841b0d86461")
 		)
-		(pin "53"
-			(uuid "8b25172d-c19d-436d-8db4-ce2fba0d5651")
+		(pin "21"
+			(uuid "0872750a-ed7f-4779-9442-19eacaa805bc")
 		)
-		(pin "54"
-			(uuid "4c387f2e-1fc9-4724-8c69-623bf9c72029")
+		(pin "23"
+			(uuid "3b72f326-65a8-4381-8efc-537fdd69bf06")
 		)
-		(pin "55"
-			(uuid "2ea27ec2-22d6-4017-a18e-f8981809386d")
+		(pin "24"
+			(uuid "2bad4128-7c8a-4f08-b500-7d4c7c071437")
+		)
+		(pin "25"
+			(uuid "3e8b8347-1385-4ad7-95ba-c8d4aacf94ee")
+		)
+		(pin "18"
+			(uuid "9a6950aa-0b2d-4d39-95a7-58ed8d3dffc5")
+		)
+		(pin "19"
+			(uuid "fe9025fa-d529-4478-8976-0cc22daef26e")
+		)
+		(pin "37"
+			(uuid "4fc00a7f-b4d5-4d0d-b2ef-17ceb52932bc")
+		)
+		(pin "39"
+			(uuid "1b3bfabc-8f4c-4167-b1fd-ca15dcbc987a")
+		)
+		(pin "34"
+			(uuid "a2bb3cf5-3613-480e-8cfa-3049de002325")
+		)
+		(pin "26"
+			(uuid "2786e089-84d5-48ae-a27e-e1ccff9effad")
+		)
+		(pin "30"
+			(uuid "2f191a27-8bb9-4a0e-9332-f41bf67e1dc2")
+		)
+		(pin "33"
+			(uuid "c8180a33-c014-4e22-aa61-9866ab3c752f")
+		)
+		(pin "29"
+			(uuid "23a9fb4b-73d1-4cd6-b917-f7f075f539d7")
+		)
+		(pin "36"
+			(uuid "532480c9-49ce-40bd-8d01-707c1164b033")
+		)
+		(pin "32"
+			(uuid "1a253721-b2c3-416a-93fe-9a6493e54d7d")
+		)
+		(pin "28"
+			(uuid "b7e0b274-a4c2-4d39-a5eb-b24cdf25e64d")
+		)
+		(pin "27"
+			(uuid "47c02178-5344-4a07-ba28-06e7aa474de3")
+		)
+		(pin "35"
+			(uuid "d99fc7bd-23ec-44a3-95ff-5a7633aa7917")
+		)
+		(pin "31"
+			(uuid "8ca5d67e-6ada-48b1-b1c0-d409e7191385")
+		)
+		(pin "38"
+			(uuid "9c291f55-1dfe-4c6e-9091-c76e12e35133")
 		)
 		(pin "57"
-			(uuid "a241660d-6229-4fab-9f35-012e911f6e2b")
-		)
-		(pin "56"
-			(uuid "bf778a66-540a-4f0e-8287-97b57725cc45")
-		)
-		(pin "58"
-			(uuid "5e04a435-b869-4284-bab1-ed415ecacab0")
+			(uuid "3f1c154b-11d8-4bf5-9d1c-614bbc425f99")
 		)
 		(pin "59"
-			(uuid "d9f25480-def5-4a1e-b1bd-035d471bc94d")
+			(uuid "4efb5874-c96c-4882-8f4e-c8d2f96992e9")
 		)
-		(pin "60"
-			(uuid "54fd260b-c24d-4101-aebf-cd7ea0ce5c59")
+		(pin "45"
+			(uuid "38dae776-ca51-44af-8194-ce920f93455d")
 		)
-		(pin "61"
-			(uuid "6f1d46e5-15a5-4107-a5a4-c3598b7a5188")
+		(pin "49"
+			(uuid "b1ba2a67-ac8e-432f-9b42-37f7a90ede57")
 		)
-		(pin "62"
-			(uuid "d1204204-c116-4403-adcb-8dbdf231e77c")
+		(pin "55"
+			(uuid "7c12a34b-a35f-4afa-8ef9-89c6577c21ce")
+		)
+		(pin "41"
+			(uuid "471f9465-d2b9-451d-a409-77c312d39d01")
+		)
+		(pin "42"
+			(uuid "e1db9a8b-7127-4910-995e-44537847ab1f")
+		)
+		(pin "46"
+			(uuid "8229829b-6d63-4a27-886e-32cbf75e59f2")
+		)
+		(pin "47"
+			(uuid "2d939bee-032a-4798-8135-bad61b41fda9")
+		)
+		(pin "40"
+			(uuid "371e4394-f9eb-4156-8fe8-4053982458e5")
+		)
+		(pin "48"
+			(uuid "a30c4abd-78fc-4fa5-91a9-19069e5112f7")
+		)
+		(pin "54"
+			(uuid "d07487da-dec1-4b9c-a10e-5ae910dfa341")
+		)
+		(pin "51"
+			(uuid "6ad2450a-71b9-45e2-aed8-1a8bc5a20d70")
+		)
+		(pin "52"
+			(uuid "c2a4ce7b-0a29-4e4a-976b-b1e6d08bb5b0")
+		)
+		(pin "43"
+			(uuid "95f75e05-9d7e-4575-bea0-b0f2e669615e")
+		)
+		(pin "44"
+			(uuid "0b1e7912-6a91-4056-b59e-72340bf4e011")
+		)
+		(pin "50"
+			(uuid "524903d4-7618-4b93-8986-715ec82e05eb")
+		)
+		(pin "53"
+			(uuid "7255fad9-c6e6-404f-9a2e-26eaa6f86e46")
+		)
+		(pin "56"
+			(uuid "215245e8-f748-4c1c-90b7-5f19dc305433")
+		)
+		(pin "58"
+			(uuid "5fcedfff-2257-4511-99c7-233066fd1568")
 		)
 		(pin "63"
-			(uuid "39319b7a-f38c-4ff5-b91e-d2d10286b5f6")
-		)
-		(pin "64"
-			(uuid "686b429d-6006-4859-9d62-8da286f188af")
-		)
-		(pin "66"
-			(uuid "f8c87472-894e-402d-a31d-c42eae53a926")
-		)
-		(pin "67"
-			(uuid "64d45c03-69dd-492c-8b38-5557e3e9c871")
-		)
-		(pin "69"
-			(uuid "a449b0c5-6868-4729-98ae-69328f3371e2")
+			(uuid "d583dc07-9b23-4754-a078-4accfc3b1fa6")
 		)
 		(pin "65"
-			(uuid "67a0d740-6f67-4786-b9c3-dfdeebeb8d8a")
+			(uuid "2646c6bc-600b-4e4e-9982-7ae10230455d")
+		)
+		(pin "66"
+			(uuid "06a883fc-019d-4c4f-98f0-91ec809ac48b")
+		)
+		(pin "67"
+			(uuid "0b8d3d0e-44c9-4065-9e5b-526565d8ddf5")
+		)
+		(pin "62"
+			(uuid "b2a81c42-b965-472f-9861-f7c9fadbdcf8")
+		)
+		(pin "64"
+			(uuid "fb7b4371-89c7-4fc7-8293-ad3e5add2f1c")
+		)
+		(pin "60"
+			(uuid "e4a7b456-661f-4288-bb1c-2b55678413c8")
+		)
+		(pin "61"
+			(uuid "7ea35778-1edf-4f74-a405-3dc1b00ff415")
+		)
+		(pin "22"
+			(uuid "3089f82d-fb3a-4f4b-ad63-257106423bec")
+		)
+		(pin "69"
+			(uuid "0f6bef30-3cd9-4ba5-bdb4-93072c63c951")
 		)
 		(pin "68"
-			(uuid "c96a477a-ec18-4268-9260-a66add7de227")
+			(uuid "cd55f6db-ab1f-4c39-870c-0ca78ae889fd")
 		)
 		(instances
 			(project "rov_usb"
@@ -10414,140 +10483,6 @@
 			(project "rov_usb"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/49ca2e40-2d13-4810-89b0-6bfff32416b9"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "snadol:SST25VF512A-33-4C-SAE")
-		(at 55.88 106.68 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d83a98e9-c46e-4650-b242-88af4e882a68")
-		(property "Reference" "U2"
-			(at 46.99 98.806 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SST25VF512A-33-4C-SAE"
-			(at 21.844 115.062 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "snadol:SST25VF512A"
-			(at 70.612 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "SST25VF512A-33-4C-SAE"
-			(at 70.358 115.316 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 55.88 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "SST25VF512A-33-4C-SAE"
-			(at 55.88 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 55.88 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 55.88 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "11204a25-3ddc-4109-84cc-96c7e5fad638")
-		)
-		(pin "6"
-			(uuid "b9bb4168-8134-40b8-a024-f9c0f5086675")
-		)
-		(pin "7"
-			(uuid "38ecf293-daf8-4cce-be92-115967876174")
-		)
-		(pin "5"
-			(uuid "f25bc723-4a1a-492f-8b6a-8da121c624de")
-		)
-		(pin "2"
-			(uuid "05918b89-0f88-4951-a309-ba92ce7e2c25")
-		)
-		(pin "3"
-			(uuid "20d8c7b7-a354-48b1-9d69-9ea457ddcdb1")
-		)
-		(pin "1"
-			(uuid "63347b5d-c067-45a5-a51f-2c957a59a989")
-		)
-		(pin "8"
-			(uuid "dbadfc3f-fef3-4732-856e-3862c9b1b21d")
-		)
-		(instances
-			(project "rov_usb"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/49ca2e40-2d13-4810-89b0-6bfff32416b9"
-					(reference "U2")
 					(unit 1)
 				)
 			)

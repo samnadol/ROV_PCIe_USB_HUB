@@ -2,4 +2,5 @@
 	(version 7)
 	(lib (name "Connector_THT_Wurth") (type "KiCad") (uri "C:/Users/samna/Documents/Wurth_KiCad/footprints/Connector_THT_Wurth.pretty") (options "") (descr ""))
 	(lib (name "Connector_SMD_Wurth") (type "KiCad") (uri "C:/Users/samna/Documents/Wurth_KiCad/footprints/Connector_SMD_Wurth.pretty") (options "") (descr ""))
+	(lib (name "ROV_PCIe_USB_HUB") (type "KiCad") (uri "C:/Users/samna/Desktop/ROV_PCIe_USB_HUB/lib/ROV_PCIe_USB_HUB.pretty") (options "") (descr ""))
 )
