@@ -60,16 +60,27 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.0,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 1,
+          "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        },
+        {
+          "gap": 0.155,
+          "via_gap": 0.2,
+          "width": 0.19
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -203,7 +214,17 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.15,
+        0.19,
+        0.208,
+        0.3,
+        0.4,
+        0.5,
+        1.0,
+        2.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -230,7 +251,20 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.45,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.7,
+          "drill": 0.4
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -500,7 +534,7 @@
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
-        "microvia_diameter": 0.3,
+        "microvia_diameter": 0.5,
         "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
@@ -508,7 +542,61 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "",
-        "via_diameter": 0.6,
+        "via_diameter": 0.9,
+        "via_drill": 0.6,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.5,
+        "microvia_drill": 0.1,
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "tuning_profile": "",
+        "via_diameter": 1.0,
+        "via_drill": 0.7,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.125,
+        "diff_pair_width": 0.2083,
+        "line_style": 0,
+        "microvia_diameter": 0.5,
+        "microvia_drill": 0.1,
+        "name": "diff90",
+        "pcb_color": "rgb(255, 153, 0)",
+        "priority": 1,
+        "schematic_color": "rgb(255, 153, 0)",
+        "track_width": 0.2083,
+        "tuning_profile": "",
+        "via_diameter": 0.45,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.125,
+        "diff_pair_width": 0.2083,
+        "line_style": 0,
+        "microvia_diameter": 0.5,
+        "microvia_drill": 0.1,
+        "name": "diff90_tight",
+        "pcb_color": "rgb(132, 0, 0)",
+        "priority": 2,
+        "schematic_color": "rgb(0, 194, 194)",
+        "track_width": 0.2083,
+        "tuning_profile": "",
+        "via_diameter": 0.45,
         "via_drill": 0.3,
         "wire_width": 6
       }
@@ -518,7 +606,32 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "diff90_tight",
+        "pattern": "*PCIE_TX*"
+      },
+      {
+        "netclass": "diff90_tight",
+        "pattern": "*PCIE_RX*"
+      },
+      {
+        "netclass": "diff90_tight",
+        "pattern": "*PCIE_CLK_*"
+      },
+      {
+        "netclass": "diff90_tight",
+        "pattern": "*USB4_SS*"
+      },
+      {
+        "netclass": "diff90",
+        "pattern": "*_DP*"
+      },
+      {
+        "netclass": "diff90",
+        "pattern": "*_DN*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -536,7 +649,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "bom.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -598,12 +711,66 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S4.1",
+          "name": "KLC_S4.1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part Number",
+          "name": "Part Number",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S3.3",
+          "name": "KLC_S3.3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -648,13 +815,37 @@
         "uuid": "95e7ccb6-701a-4570-b93f-f5431fbf25de"
       }
     ],
-    "used_designators": "J1-4,U1-5,H1-4",
+    "used_designators": "#FLG1-9,R1-43,J1-13,U1-16,U20-23,H1-4,#PWR1-81,C1-66,FB1-9,Y1-5,L1-2,D1",
     "variants": []
   },
   "sheets": [
     [
       "95e7ccb6-701a-4570-b93f-f5431fbf25de",
       "Root"
+    ],
+    [
+      "84da39c9-f9af-4929-95b4-a4131cfa0797",
+      "HostController"
+    ],
+    [
+      "8df78385-7746-4c07-88f4-6098a20cd10e",
+      "Hub1"
+    ],
+    [
+      "9bf9bcfa-154f-41b0-a958-9947ece707b1",
+      "Hub2"
+    ],
+    [
+      "86dea87d-3a90-48c5-9af8-d4b53f343864",
+      "Hub3"
+    ],
+    [
+      "5968cd2f-6643-449b-abda-591b3f0809fa",
+      "Hub4"
+    ],
+    [
+      "42000762-0d3e-4a2e-8bb0-02360d8a7156",
+      "Power"
     ]
   ],
   "text_variables": {},
