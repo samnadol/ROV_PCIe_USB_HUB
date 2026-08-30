@@ -17736,7 +17736,7 @@
 			)
 		)
 		(property "Value" "MIC5504-3.3YM5-TR"
-			(at 157.226 149.352 0)
+			(at 158.75 149.352 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

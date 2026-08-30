@@ -1,6 +1,6 @@
 (version 1)
 
-(rule upd_escape_clearance
-    (condition "A.intersectsArea('upd_escape')")
+(rule upd_rule
+    (condition "A.intersectsArea('upd_rule')")
     (constraint clearance (min 0.09mm))
     (constraint track_width (min 0.09mm)))

@@ -408,173 +408,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:FerriteBead_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "FB"
-				(at 1.905 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "FerriteBead_Small"
-				(at 1.905 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Ferrite bead, small symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "L ferrite bead inductor filter"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "FerriteBead_Small_0_1"
-				(polyline
-					(pts
-						(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.889) (xy 0 1.2954)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -0.7874)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "FerriteBead_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R_Small_US"
 			(pin_numbers
 				(hide yes)
@@ -2595,137 +2428,10 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:PWR_FLAG"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(rectangle
-		(start 24.13 19.05)
-		(end 57.15 34.29)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "281290db-b937-4343-9d93-168597965624")
-	)
-	(rectangle
-		(start 16.51 36.83)
-		(end 67.31 52.07)
+		(start 57.15 29.21)
+		(end 110.49 44.45)
 		(stroke
 			(width 0)
 			(type default)
@@ -2737,7 +2443,7 @@
 	)
 	(rectangle
 		(start 219.71 29.21)
-		(end 238.76 44.45)
+		(end 261.62 44.45)
 		(stroke
 			(width 0)
 			(type default)
@@ -2747,7 +2453,7 @@
 		)
 		(uuid "f200e204-68f0-427b-bc35-1b1669ef52bf")
 	)
-	(text "100n x 2"
+	(text "100n x 8"
 		(exclude_from_sim no)
 		(at 225.806 31.242 0)
 		(effects
@@ -2759,23 +2465,13 @@
 	)
 	(text "0402"
 		(exclude_from_sim no)
-		(at 51.562 38.862 0)
+		(at 94.742 31.242 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "2a3a88d6-fd51-4fee-acff-60be7894dda9")
-	)
-	(text "0402"
-		(exclude_from_sim no)
-		(at 30.48 20.7187 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4632b5ef-09e1-41b4-9d0c-898963936d43")
 	)
 	(text "PLACE CLOSE TO IC"
 		(exclude_from_sim no)
@@ -2789,7 +2485,7 @@
 	)
 	(text "0402"
 		(exclude_from_sim no)
-		(at 234.696 31.242 0)
+		(at 258.064 30.988 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2797,9 +2493,9 @@
 		)
 		(uuid "ae64cb70-46d7-4066-a393-0da48bab3c1a")
 	)
-	(text "100n x 8"
+	(text "100n x 9"
 		(exclude_from_sim no)
-		(at 61.214 38.862 0)
+		(at 104.394 31.242 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2807,25 +2503,27 @@
 		)
 		(uuid "b1db92ad-a114-4f36-ac7a-63c6ee4de1c7")
 	)
-	(text "100n x 6"
-		(exclude_from_sim no)
-		(at 51.308 21.082 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c541d500-25e8-4596-b39c-0c2416cc598c")
-	)
 	(text "0402"
 		(exclude_from_sim no)
-		(at 90.17 53.34 0)
+		(at 81.026 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "e7a65e44-f4a4-4fd8-af6f-5d5ea4cc8c92")
+	)
+	(junction
+		(at 162.56 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00f664d9-0213-4e40-8d0c-29b45297a576")
+	)
+	(junction
+		(at 237.49 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c1c075c-d40c-400c-9201-9914628a5c17")
 	)
 	(junction
 		(at 149.86 43.18)
@@ -2846,46 +2544,34 @@
 		(uuid "15b2cab2-a35e-4065-be47-34c9d3fba49e")
 	)
 	(junction
+		(at 227.33 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15b684ce-0536-43e7-8cd0-6d88f814b550")
+	)
+	(junction
 		(at 72.39 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "199eb049-faf8-4e40-8340-3e0979e5c9ce")
 	)
 	(junction
-		(at 48.26 40.64)
+		(at 91.44 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1b062952-360e-4994-bf52-73ccf657e788")
 	)
 	(junction
-		(at 33.02 48.26)
+		(at 76.2 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2100873d-9a13-4b48-bdae-7e3065b7de5f")
-	)
-	(junction
-		(at 33.02 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "26b90576-9a99-469a-8395-d5f46fadfba6")
-	)
-	(junction
-		(at 180.34 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "271dd982-6dd3-4e32-9bdb-0166cf28645a")
 	)
 	(junction
 		(at 167.64 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "28bda706-6bd3-4542-b544-bbd902a01852")
-	)
-	(junction
-		(at 33.02 22.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2a2a1352-3c6b-4b4f-8f2a-f8d2cea3a78f")
 	)
 	(junction
 		(at 115.57 114.3)
@@ -2906,28 +2592,22 @@
 		(uuid "33803bac-dd3d-4960-943b-6cce36e1a157")
 	)
 	(junction
-		(at 43.18 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "347360f6-4147-4c65-af3f-940f14a18e02")
-	)
-	(junction
 		(at 210.82 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "37ecb80b-f8cd-4bdc-a54e-7545502dd818")
 	)
 	(junction
-		(at 58.42 48.26)
+		(at 101.6 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "388e2e56-54e1-4b17-9060-f534f3feb02b")
 	)
 	(junction
-		(at 38.1 22.86)
+		(at 247.65 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3cda8136-a0a4-49ee-a28d-f0c483958ffd")
+		(uuid "3c849fd5-92ec-451e-9c0c-44bbd7d23084")
 	)
 	(junction
 		(at 82.55 107.95)
@@ -2936,13 +2616,19 @@
 		(uuid "3d14ea7e-1313-432e-9bc4-a82b75f976f2")
 	)
 	(junction
+		(at 175.26 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d8e91be-450c-4be8-8b37-6e84a15a0aaf")
+	)
+	(junction
 		(at 134.62 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3eba65bb-26a1-4ae2-82be-7aa22731d89d")
 	)
 	(junction
-		(at 63.5 48.26)
+		(at 106.68 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3fce573e-96c0-4226-9e32-49fbb6645a5c")
@@ -2954,13 +2640,13 @@
 		(uuid "41bf76b6-08dc-432b-9ab9-4f2f85baaedf")
 	)
 	(junction
-		(at 27.94 48.26)
+		(at 71.12 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4288f948-75ef-40ca-a3d3-91534729ba00")
 	)
 	(junction
-		(at 38.1 40.64)
+		(at 81.28 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "42c63454-0850-4e3b-ad22-ae23fea2f100")
@@ -2978,22 +2664,16 @@
 		(uuid "4a14ea66-1db3-4c16-9b58-f3cc9cde8fd1")
 	)
 	(junction
-		(at 48.26 22.86)
+		(at 115.57 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4e03c0f6-cf0e-4beb-91ee-6b5bd703a675")
+		(uuid "4b77f9a0-68c0-4b9f-91ea-0d19f5d467c9")
 	)
 	(junction
 		(at 91.44 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "52620e69-d7b2-400f-90e1-45cfdef8f840")
-	)
-	(junction
-		(at 175.26 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "530f8caa-ea3d-429f-91c6-3b56c47e66a1")
 	)
 	(junction
 		(at 210.82 86.36)
@@ -3008,19 +2688,7 @@
 		(uuid "561790bf-3a35-4b02-a58b-e0b87d486ea4")
 	)
 	(junction
-		(at 38.1 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5a981044-c230-42fa-abe1-f0af488d1e97")
-	)
-	(junction
-		(at 53.34 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5bcde143-ae40-4e83-9e9f-91df201e49a5")
-	)
-	(junction
-		(at 27.94 40.64)
+		(at 71.12 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "62bc68ef-5c27-4dc9-9995-b28e00f67e53")
@@ -3032,16 +2700,28 @@
 		(uuid "6a992f8d-973e-4bff-801e-0510a8082f51")
 	)
 	(junction
+		(at 232.41 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e9ac73f-405f-4715-ab54-8c127e47c4d0")
+	)
+	(junction
 		(at 142.24 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6f35a59e-28e8-4166-b34c-f2a677e53929")
 	)
 	(junction
-		(at 72.39 48.26)
+		(at 115.57 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70f99439-fcc0-4a00-ae68-d7a03d7bacdf")
+	)
+	(junction
+		(at 252.73 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7201e68f-d2ed-40e8-8544-71aeffda9d32")
 	)
 	(junction
 		(at 212.09 33.02)
@@ -3050,22 +2730,28 @@
 		(uuid "7599723d-f7ef-4a18-b702-ace279ddaa87")
 	)
 	(junction
-		(at 33.02 40.64)
+		(at 76.2 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "76c166e4-70a7-4bf2-a160-b3610cb69aeb")
 	)
 	(junction
-		(at 43.18 40.64)
+		(at 86.36 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a883f4b-c8fd-4bac-b6ea-2f14f353cacf")
 	)
 	(junction
-		(at 53.34 48.26)
+		(at 96.52 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "808887fb-e041-4715-a5bc-9459131a08c7")
+	)
+	(junction
+		(at 66.04 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81eeaf19-8109-41a5-bc03-f41b161fbe1a")
 	)
 	(junction
 		(at 139.7 43.18)
@@ -3080,13 +2766,7 @@
 		(uuid "85ae594b-94bd-4dbc-ad2e-53699cb85fdd")
 	)
 	(junction
-		(at 134.62 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8e1cd901-9374-4ec0-b3e6-500f59dcfdc8")
-	)
-	(junction
-		(at 43.18 48.26)
+		(at 86.36 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "90e1ec0b-c524-4501-974a-05cc3c64b267")
@@ -3104,6 +2784,12 @@
 		(uuid "982f680d-7be6-4857-8f59-e2384d09740e")
 	)
 	(junction
+		(at 247.65 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98cb96e4-7063-4ed4-98ba-8c84012b8f98")
+	)
+	(junction
 		(at 77.47 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3114,12 +2800,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9d41386c-d584-4510-96ee-51c79e9a6d13")
-	)
-	(junction
-		(at 48.26 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9f56c714-63bd-462e-92ef-6ea4f0bf3fa1")
 	)
 	(junction
 		(at 182.88 43.18)
@@ -3146,19 +2826,13 @@
 		(uuid "a5acc13f-7285-4baf-9429-f9e937dead51")
 	)
 	(junction
-		(at 63.5 40.64)
+		(at 106.68 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "abb0a774-b1f6-400b-8433-59715a8be725")
 	)
 	(junction
-		(at 53.34 22.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ac397ea6-7b37-498a-b7dc-58137cd99946")
-	)
-	(junction
-		(at 38.1 48.26)
+		(at 81.28 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad60b10e-9992-4781-9864-04fda66c267d")
@@ -3176,7 +2850,7 @@
 		(uuid "b33d7e22-3b61-4a0f-99f4-45e4080ed2ef")
 	)
 	(junction
-		(at 53.34 40.64)
+		(at 96.52 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb166b6d-6872-4ffd-9bf1-a8998c39fe74")
@@ -3188,10 +2862,22 @@
 		(uuid "bee437ca-d9e7-4d9a-8e40-a0a3182a58be")
 	)
 	(junction
-		(at 72.39 40.64)
+		(at 242.57 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c98c02b7-1cc4-4b5b-8590-4ea6f96d1785")
+		(uuid "c5351856-e6e3-4a96-8fb9-66a9bf5b80a7")
+	)
+	(junction
+		(at 242.57 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cdddb7dd-60f1-482b-8636-7f8798035d28")
+	)
+	(junction
+		(at 66.04 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf1ac948-db66-4bbd-8112-c427effc3729")
 	)
 	(junction
 		(at 115.57 119.38)
@@ -3200,16 +2886,16 @@
 		(uuid "d07bc66e-b8ce-4d4f-8176-0fcb558bf32a")
 	)
 	(junction
-		(at 43.18 22.86)
+		(at 232.41 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d2d28b18-362d-4368-bc0e-07dac71406fb")
+		(uuid "d16bd3c2-3c19-4a11-84a3-e9583c0d419b")
 	)
 	(junction
-		(at 180.34 40.64)
+		(at 227.33 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d2fa0f7e-b4bf-42bd-b885-10292accb7e4")
+		(uuid "d390b0e4-679e-45a2-a80c-d136e1b930af")
 	)
 	(junction
 		(at 77.47 102.87)
@@ -3230,13 +2916,7 @@
 		(uuid "e0ac1a87-179f-41dd-982c-e18626f47edd")
 	)
 	(junction
-		(at 63.5 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e296eaef-b5a7-4efe-bd34-6144fe2d5611")
-	)
-	(junction
-		(at 58.42 40.64)
+		(at 101.6 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e2c36db3-42c7-4784-848d-d19de7fb67e7")
@@ -3248,22 +2928,28 @@
 		(uuid "e2dda559-4200-4a56-b2ae-b9e624fedbd0")
 	)
 	(junction
-		(at 162.56 43.18)
+		(at 252.73 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e991f27f-419b-4602-b58b-93b0065e21a4")
+		(uuid "e5851d1c-29e2-4b21-b472-76a7dd9b8e5b")
 	)
 	(junction
-		(at 63.5 22.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ea9726db-740a-41d6-a066-401d3ad5a420")
-	)
-	(junction
-		(at 48.26 48.26)
+		(at 91.44 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee93471e-4c68-4f95-8f05-002d3bb96e69")
+	)
+	(junction
+		(at 237.49 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f00a012f-c836-485d-94ec-20aea379e158")
+	)
+	(junction
+		(at 180.34 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb7b0887-9006-4051-a163-d69206392340")
 	)
 	(junction
 		(at 172.72 43.18)
@@ -3363,16 +3049,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 30.48) (xy 48.26 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "030e934d-d6a9-4a72-a771-42f5f8250706")
-	)
-	(wire
-		(pts
 			(xy 207.01 101.6) (xy 222.25 101.6)
 		)
 		(stroke
@@ -3383,23 +3059,13 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 48.26) (xy 72.39 48.26)
+			(xy 106.68 40.64) (xy 115.57 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "082ef338-9512-40c4-83d1-c5db1d2d2689")
-	)
-	(wire
-		(pts
-			(xy 38.1 30.48) (xy 33.02 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d608680-3102-48a7-bc87-260c3e409ae6")
 	)
 	(wire
 		(pts
@@ -3413,7 +3079,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 40.64) (xy 53.34 40.64)
+			(xy 91.44 33.02) (xy 96.52 33.02)
 		)
 		(stroke
 			(width 0)
@@ -3430,16 +3096,6 @@
 			(type default)
 		)
 		(uuid "0fa702fe-b69f-4057-be3b-1dd044d85015")
-	)
-	(wire
-		(pts
-			(xy 33.02 22.86) (xy 33.02 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fdc6d5f-525e-4a9d-ba54-3f33bbcd0653")
 	)
 	(wire
 		(pts
@@ -3460,16 +3116,6 @@
 			(type default)
 		)
 		(uuid "10ea24a5-da02-4a32-9361-c947ad7318af")
-	)
-	(wire
-		(pts
-			(xy 27.94 22.86) (xy 27.94 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1116f117-3fe6-4713-93cd-67ace2e77445")
 	)
 	(wire
 		(pts
@@ -3500,6 +3146,16 @@
 			(type default)
 		)
 		(uuid "13268ee8-7837-4fa1-93c4-68a51ac989aa")
+	)
+	(wire
+		(pts
+			(xy 247.65 40.64) (xy 252.73 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13626797-9860-45a9-ba17-5463a699fb63")
 	)
 	(wire
 		(pts
@@ -3573,6 +3229,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 33.02) (xy 125.73 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a4e47cb-6500-421d-88f9-41a59b12f301")
+	)
+	(wire
+		(pts
 			(xy 207.01 55.88) (xy 222.25 55.88)
 		)
 		(stroke
@@ -3583,23 +3249,13 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 40.64) (xy 58.42 41.91)
+			(xy 101.6 33.02) (xy 101.6 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1ad99e42-fbe3-44cc-aba7-d86732102054")
-	)
-	(wire
-		(pts
-			(xy 48.26 30.48) (xy 43.18 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b12ceab-8d92-4806-82d1-f82a2861d670")
 	)
 	(wire
 		(pts
@@ -3613,13 +3269,23 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 40.64) (xy 72.39 41.91)
+			(xy 115.57 33.02) (xy 115.57 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1fa88839-fb47-4984-97c0-9e06a98688ae")
+	)
+	(wire
+		(pts
+			(xy 232.41 40.64) (xy 237.49 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2238a0d1-b276-458e-ac98-e1353cf0e2d2")
 	)
 	(wire
 		(pts
@@ -3633,7 +3299,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 48.26) (xy 58.42 46.99)
+			(xy 101.6 40.64) (xy 101.6 39.37)
 		)
 		(stroke
 			(width 0)
@@ -3653,16 +3319,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 22.86) (xy 158.75 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25d6d264-dc51-4115-8501-74d61a498c1e")
-	)
-	(wire
-		(pts
 			(xy 222.25 33.02) (xy 227.33 33.02)
 		)
 		(stroke
@@ -3673,7 +3329,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 40.64) (xy 63.5 41.91)
+			(xy 106.68 33.02) (xy 106.68 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3693,7 +3349,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 48.26) (xy 58.42 48.26)
+			(xy 106.68 40.64) (xy 101.6 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3713,7 +3369,17 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 48.26) (xy 38.1 46.99)
+			(xy 125.73 43.18) (xy 134.62 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a82d97d-7af3-4ad4-9d9a-f5c24e1d2c7b")
+	)
+	(wire
+		(pts
+			(xy 81.28 40.64) (xy 81.28 39.37)
 		)
 		(stroke
 			(width 0)
@@ -3773,17 +3439,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 22.86) (xy 48.26 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "334cdf5d-a870-431b-9b1a-68363f8e4881")
-	)
-	(wire
-		(pts
-			(xy 43.18 40.64) (xy 43.18 41.91)
+			(xy 86.36 33.02) (xy 86.36 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3803,6 +3459,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 33.02) (xy 242.57 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3491d771-c2d1-4576-b7ed-8467ae5cde04")
+	)
+	(wire
+		(pts
 			(xy 57.15 69.85) (xy 57.15 72.39)
 		)
 		(stroke
@@ -3810,16 +3476,6 @@
 			(type default)
 		)
 		(uuid "36b05d37-686c-47ed-9b97-e349392595ce")
-	)
-	(wire
-		(pts
-			(xy 38.1 22.86) (xy 38.1 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36c9ade9-67bf-4a22-94e7-58360857c9d6")
 	)
 	(wire
 		(pts
@@ -3833,6 +3489,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 40.64) (xy 66.04 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37a5bced-366b-4d93-a4dd-e6bb32923342")
+	)
+	(wire
+		(pts
 			(xy 227.33 33.02) (xy 227.33 34.29)
 		)
 		(stroke
@@ -3843,7 +3509,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 40.64) (xy 53.34 41.91)
+			(xy 96.52 33.02) (xy 96.52 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3913,7 +3579,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 48.26) (xy 48.26 48.26)
+			(xy 86.36 40.64) (xy 91.44 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3933,16 +3599,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 22.86) (xy 53.34 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e3f1ee8-3ab5-4f86-b395-fc5fdb99d251")
-	)
-	(wire
-		(pts
 			(xy 100.33 139.7) (xy 100.33 142.24)
 		)
 		(stroke
@@ -3950,16 +3606,6 @@
 			(type default)
 		)
 		(uuid "4080841f-09d5-4238-a14f-a747bbe78e1d")
-	)
-	(wire
-		(pts
-			(xy 63.5 30.48) (xy 63.5 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41571f32-53ae-4bf7-90e7-1c7faf885a24")
 	)
 	(wire
 		(pts
@@ -3973,7 +3619,17 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 40.64) (xy 48.26 41.91)
+			(xy 247.65 33.02) (xy 252.73 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43674efe-c366-4e12-9e72-0b934ae50336")
+	)
+	(wire
+		(pts
+			(xy 91.44 33.02) (xy 91.44 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3983,23 +3639,43 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 43.18) (xy 162.56 43.18)
+			(xy 242.57 39.37) (xy 242.57 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "448543a4-0c1f-4446-803d-5d8eb4182d45")
+		(uuid "43c730ac-0d64-4cb3-85fd-5c0032932469")
 	)
 	(wire
 		(pts
-			(xy 162.56 40.64) (xy 162.56 43.18)
+			(xy 257.81 33.02) (xy 257.81 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45f771c0-d603-4bbd-83d6-51bec87f7db4")
+	)
+	(wire
+		(pts
+			(xy 162.56 39.37) (xy 162.56 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4623fd0f-1a3e-48a1-8c63-af1e28d908a8")
+	)
+	(wire
+		(pts
+			(xy 232.41 33.02) (xy 237.49 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a255079-ca86-4bbf-9961-7e433ce7125b")
 	)
 	(wire
 		(pts
@@ -4010,6 +3686,16 @@
 			(type default)
 		)
 		(uuid "4a612ddf-4321-46a8-89e2-e34b1edc1bfa")
+	)
+	(wire
+		(pts
+			(xy 237.49 33.02) (xy 237.49 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b9c3771-e03f-4ec5-9dd7-acf4fdf22530")
 	)
 	(wire
 		(pts
@@ -4043,6 +3729,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 33.02) (xy 257.81 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f682de0-afee-4d98-957e-03f8ff619bc7")
+	)
+	(wire
+		(pts
 			(xy 212.09 33.02) (xy 212.09 34.29)
 		)
 		(stroke
@@ -4050,16 +3746,6 @@
 			(type default)
 		)
 		(uuid "4f9670b4-87e0-4085-9551-a51c33062e36")
-	)
-	(wire
-		(pts
-			(xy 38.1 30.48) (xy 38.1 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50278b72-4e95-4f34-8d54-23acc476ae4a")
 	)
 	(wire
 		(pts
@@ -4083,6 +3769,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 33.02) (xy 232.41 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54552d30-8180-4e61-be3e-df1725eb3285")
+	)
+	(wire
+		(pts
 			(xy 54.61 92.71) (xy 54.61 95.25)
 		)
 		(stroke
@@ -4103,7 +3799,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 40.64) (xy 22.86 41.91)
+			(xy 66.04 33.02) (xy 66.04 34.29)
 		)
 		(stroke
 			(width 0)
@@ -4113,7 +3809,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 40.64) (xy 134.62 43.18)
+			(xy 134.62 39.37) (xy 134.62 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4123,13 +3819,13 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 22.86) (xy 63.5 24.13)
+			(xy 242.57 33.02) (xy 247.65 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "58a95a00-b5b8-41ed-9ce4-20f18f528d76")
+		(uuid "57a93618-f8fe-4128-a40b-ba77617ebb4d")
 	)
 	(wire
 		(pts
@@ -4140,16 +3836,6 @@
 			(type default)
 		)
 		(uuid "591aaf78-a943-4384-99ee-b66e60d366a0")
-	)
-	(wire
-		(pts
-			(xy 53.34 22.86) (xy 48.26 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59f28c66-abab-4a8e-8a83-cf9fc9a36040")
 	)
 	(wire
 		(pts
@@ -4173,6 +3859,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 40.64) (xy 232.41 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f0f86fe-301c-4d7f-ac8b-43c7efbf999d")
+	)
+	(wire
+		(pts
 			(xy 82.55 99.06) (xy 82.55 107.95)
 		)
 		(stroke
@@ -4193,7 +3889,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 48.26) (xy 72.39 49.53)
+			(xy 115.57 40.64) (xy 115.57 41.91)
 		)
 		(stroke
 			(width 0)
@@ -4210,6 +3906,16 @@
 			(type solid)
 		)
 		(uuid "62cb07c5-2e30-4e81-9773-2b9e4f8c07c5")
+	)
+	(wire
+		(pts
+			(xy 242.57 40.64) (xy 247.65 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "630f0643-4166-410a-8cbe-51704b3f50cc")
 	)
 	(wire
 		(pts
@@ -4253,16 +3959,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 30.48) (xy 38.1 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c4529ea-7ce8-4a8b-a18a-a63690bd037d")
-	)
-	(wire
-		(pts
 			(xy 162.56 43.18) (xy 165.1 43.18)
 		)
 		(stroke
@@ -4270,16 +3966,6 @@
 			(type default)
 		)
 		(uuid "6d37bcb2-ba50-445e-83d0-fa4f8d52ce52")
-	)
-	(wire
-		(pts
-			(xy 180.34 39.37) (xy 180.34 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6df22a2f-b3d0-4f48-a0fb-a9b0cb070c8e")
 	)
 	(wire
 		(pts
@@ -4303,7 +3989,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 48.26) (xy 33.02 46.99)
+			(xy 76.2 40.64) (xy 76.2 39.37)
 		)
 		(stroke
 			(width 0)
@@ -4353,13 +4039,13 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 30.48) (xy 43.18 29.21)
+			(xy 237.49 40.64) (xy 242.57 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "79f67fc0-00e9-4098-9f38-de01e97de8be")
+		(uuid "7a14b5c4-095c-4f1d-b663-bbee041a14e6")
 	)
 	(wire
 		(pts
@@ -4380,6 +4066,16 @@
 			(type default)
 		)
 		(uuid "7b8928ba-70c7-4c00-8776-9491c8a8f620")
+	)
+	(wire
+		(pts
+			(xy 252.73 39.37) (xy 252.73 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dc818e3-cf70-4b85-bc88-f08ec1175b02")
 	)
 	(wire
 		(pts
@@ -4423,6 +4119,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 34.29) (xy 60.96 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83bff54a-bbc4-4d34-b52d-1448871a9c91")
+	)
+	(wire
+		(pts
 			(xy 205.74 33.02) (xy 212.09 33.02)
 		)
 		(stroke
@@ -4433,23 +4139,13 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 48.26) (xy 27.94 48.26)
+			(xy 66.04 40.64) (xy 71.12 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "854293eb-c3fc-4875-b830-823e82b79629")
-	)
-	(wire
-		(pts
-			(xy 63.5 22.86) (xy 158.75 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "856c0ae3-5e1c-4767-a7f6-4bb1cbcf6183")
 	)
 	(wire
 		(pts
@@ -4493,7 +4189,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 40.64) (xy 72.39 40.64)
+			(xy 106.68 33.02) (xy 115.57 33.02)
 		)
 		(stroke
 			(width 0)
@@ -4513,16 +4209,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 30.48) (xy 63.5 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8af2df5a-541a-4258-93ed-a0104fa23f94")
-	)
-	(wire
-		(pts
 			(xy 170.18 43.18) (xy 172.72 43.18)
 		)
 		(stroke
@@ -4533,7 +4219,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 40.64) (xy 48.26 40.64)
+			(xy 86.36 33.02) (xy 91.44 33.02)
 		)
 		(stroke
 			(width 0)
@@ -4543,7 +4229,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 40.64) (xy 38.1 41.91)
+			(xy 81.28 33.02) (xy 81.28 34.29)
 		)
 		(stroke
 			(width 0)
@@ -4573,6 +4259,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 39.37) (xy 232.41 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fa0abe6-8c27-46ae-ad26-6d81a1856598")
+	)
+	(wire
+		(pts
 			(xy 91.44 124.46) (xy 91.44 128.27)
 		)
 		(stroke
@@ -4580,36 +4276,6 @@
 			(type default)
 		)
 		(uuid "920e1927-0a4a-4f10-8e24-cecdd208191c")
-	)
-	(wire
-		(pts
-			(xy 53.34 30.48) (xy 53.34 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9406467b-4fc9-463d-9d3a-e0b83d0f5e98")
-	)
-	(wire
-		(pts
-			(xy 33.02 30.48) (xy 27.94 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9418d06e-ee9f-474a-bb88-d080eaabee5c")
-	)
-	(wire
-		(pts
-			(xy 48.26 22.86) (xy 43.18 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96c13274-117f-4cc6-9306-57ad7dc5ebd1")
 	)
 	(wire
 		(pts
@@ -4633,13 +4299,23 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 48.26) (xy 33.02 48.26)
+			(xy 81.28 40.64) (xy 76.2 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "98402eca-85a5-4df5-bbda-1cc13d48cac4")
+	)
+	(wire
+		(pts
+			(xy 227.33 33.02) (xy 232.41 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98bab5cc-002f-4205-97e1-5111cad5f492")
 	)
 	(wire
 		(pts
@@ -4670,26 +4346,6 @@
 			(type default)
 		)
 		(uuid "9b467c3c-5d7b-48f9-b8e8-4df1f6959863")
-	)
-	(wire
-		(pts
-			(xy 53.34 30.48) (xy 48.26 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b4c924f-e37c-4356-a78d-5e8421692cf3")
-	)
-	(wire
-		(pts
-			(xy 43.18 22.86) (xy 38.1 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b66c4bf-d525-428e-9e81-825908d39ecc")
 	)
 	(wire
 		(pts
@@ -4743,7 +4399,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 40.64) (xy 27.94 40.64)
+			(xy 76.2 33.02) (xy 71.12 33.02)
 		)
 		(stroke
 			(width 0)
@@ -4763,13 +4419,23 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 46.99) (xy 22.86 48.26)
+			(xy 66.04 39.37) (xy 66.04 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a5a88b29-cfaf-4fe0-87ed-af124a1a6159")
+	)
+	(wire
+		(pts
+			(xy 237.49 39.37) (xy 237.49 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a70f63cf-831f-46bd-b67e-512bb5b5dc00")
 	)
 	(wire
 		(pts
@@ -4780,26 +4446,6 @@
 			(type solid)
 		)
 		(uuid "a769c970-b04d-416c-be1e-ce9c0e79ad9b")
-	)
-	(wire
-		(pts
-			(xy 33.02 22.86) (xy 27.94 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7a6803d-9eb7-4705-b703-63ff63a1eb4c")
-	)
-	(wire
-		(pts
-			(xy 43.18 22.86) (xy 43.18 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8fc5f9b-5413-4797-9f0a-0720b38876cf")
 	)
 	(wire
 		(pts
@@ -4833,7 +4479,17 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 40.64) (xy 58.42 40.64)
+			(xy 247.65 39.37) (xy 247.65 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af7f1b98-9ce7-411f-9627-bd3101b348e4")
+	)
+	(wire
+		(pts
+			(xy 106.68 33.02) (xy 101.6 33.02)
 		)
 		(stroke
 			(width 0)
@@ -4843,7 +4499,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 48.26) (xy 48.26 48.26)
+			(xy 96.52 40.64) (xy 91.44 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4893,23 +4549,13 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 40.64) (xy 22.86 40.64)
+			(xy 71.12 33.02) (xy 66.04 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b7ca517a-6acc-4181-a783-0c3121f9dab1")
-	)
-	(wire
-		(pts
-			(xy 175.26 39.37) (xy 175.26 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9749929-30c0-4e6b-bdc0-772eb71a951d")
 	)
 	(wire
 		(pts
@@ -4940,6 +4586,16 @@
 			(type default)
 		)
 		(uuid "bc6ae67c-207d-4ec8-b7c2-6ffd3f937e96")
+	)
+	(wire
+		(pts
+			(xy 252.73 33.02) (xy 252.73 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bde07893-139b-43d1-bd37-5963edc0f392")
 	)
 	(wire
 		(pts
@@ -4983,7 +4639,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 46.99) (xy 72.39 48.26)
+			(xy 115.57 39.37) (xy 115.57 40.64)
 		)
 		(stroke
 			(width 0)
@@ -5023,7 +4679,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 48.26) (xy 27.94 48.26)
+			(xy 76.2 40.64) (xy 71.12 40.64)
 		)
 		(stroke
 			(width 0)
@@ -5033,17 +4689,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 39.37) (xy 134.62 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c59dcd5b-0b43-4a77-8751-f47fe0942600")
-	)
-	(wire
-		(pts
-			(xy 38.1 40.64) (xy 33.02 40.64)
+			(xy 81.28 33.02) (xy 76.2 33.02)
 		)
 		(stroke
 			(width 0)
@@ -5053,7 +4699,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 40.64) (xy 38.1 40.64)
+			(xy 86.36 33.02) (xy 81.28 33.02)
 		)
 		(stroke
 			(width 0)
@@ -5063,7 +4709,17 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 48.26) (xy 48.26 46.99)
+			(xy 257.81 40.64) (xy 257.81 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c69c0f84-c9b8-4b69-a3af-663c8f0050b1")
+	)
+	(wire
+		(pts
+			(xy 91.44 40.64) (xy 91.44 39.37)
 		)
 		(stroke
 			(width 0)
@@ -5073,7 +4729,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 40.64) (xy 33.02 41.91)
+			(xy 76.2 33.02) (xy 76.2 34.29)
 		)
 		(stroke
 			(width 0)
@@ -5103,7 +4759,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 48.26) (xy 53.34 48.26)
+			(xy 101.6 40.64) (xy 96.52 40.64)
 		)
 		(stroke
 			(width 0)
@@ -5213,17 +4869,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 22.86) (xy 33.02 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4a8e9e3-a593-402d-b1d8-ea6fcab5f127")
-	)
-	(wire
-		(pts
-			(xy 43.18 48.26) (xy 43.18 46.99)
+			(xy 86.36 40.64) (xy 86.36 39.37)
 		)
 		(stroke
 			(width 0)
@@ -5233,7 +4879,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 48.26) (xy 38.1 48.26)
+			(xy 86.36 40.64) (xy 81.28 40.64)
 		)
 		(stroke
 			(width 0)
@@ -5263,7 +4909,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 48.26) (xy 63.5 46.99)
+			(xy 106.68 40.64) (xy 106.68 39.37)
 		)
 		(stroke
 			(width 0)
@@ -5273,13 +4919,33 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 48.26) (xy 27.94 46.99)
+			(xy 115.57 33.02) (xy 125.73 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dba9cde0-e23a-49fc-8b70-8d5a84d63118")
+	)
+	(wire
+		(pts
+			(xy 71.12 40.64) (xy 71.12 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "dbc42162-645f-4908-8b99-0612cc54257d")
+	)
+	(wire
+		(pts
+			(xy 252.73 40.64) (xy 257.81 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcc9412e-6e17-412a-af6f-3b2e55df5a83")
 	)
 	(wire
 		(pts
@@ -5293,6 +4959,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 43.18) (xy 180.34 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df01eb31-a2ac-45fa-a878-882b462ffa74")
+	)
+	(wire
+		(pts
 			(xy 116.84 104.14) (xy 115.57 104.14)
 		)
 		(stroke
@@ -5300,6 +4976,16 @@
 			(type default)
 		)
 		(uuid "e08e1867-0f4a-49eb-8ed6-3232e26a2f4a")
+	)
+	(wire
+		(pts
+			(xy 60.96 39.37) (xy 60.96 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0ccc776-1ef5-4034-a49d-626246aad65f")
 	)
 	(wire
 		(pts
@@ -5343,6 +5029,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 33.02) (xy 66.04 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e483a7c1-3b77-4c20-ad45-5b0de887c8e2")
+	)
+	(wire
+		(pts
 			(xy 63.5 100.33) (xy 72.39 100.33)
 		)
 		(stroke
@@ -5353,13 +5049,13 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 30.48) (xy 27.94 29.21)
+			(xy 247.65 33.02) (xy 247.65 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e5019d06-ce1b-4a3a-bae9-80703e167ce1")
+		(uuid "e4d5ac14-0cc3-4ff7-a00a-788a05789cca")
 	)
 	(wire
 		(pts
@@ -5383,17 +5079,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 22.86) (xy 63.5 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8550f90-352b-428b-85c8-fea419ed65cf")
-	)
-	(wire
-		(pts
-			(xy 27.94 40.64) (xy 27.94 41.91)
+			(xy 71.12 33.02) (xy 71.12 34.29)
 		)
 		(stroke
 			(width 0)
@@ -5413,13 +5099,23 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 48.26) (xy 53.34 46.99)
+			(xy 96.52 40.64) (xy 96.52 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "eabdda36-81cd-43b0-beeb-5935f4522efa")
+	)
+	(wire
+		(pts
+			(xy 237.49 33.02) (xy 242.57 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec7d37f2-0037-4d05-8c2b-7f5f9c696091")
 	)
 	(wire
 		(pts
@@ -5473,33 +5169,13 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 30.48) (xy 33.02 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2a7f362-08d8-4a9b-a342-1182352e7cdf")
-	)
-	(wire
-		(pts
-			(xy 58.42 40.64) (xy 53.34 40.64)
+			(xy 101.6 33.02) (xy 96.52 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f2da3516-a505-4085-83f7-491a095d8fbb")
-	)
-	(wire
-		(pts
-			(xy 72.39 40.64) (xy 134.62 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f36c7ba7-1d0c-490f-a7a9-7f71b8b08e45")
 	)
 	(wire
 		(pts
@@ -5543,16 +5219,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 30.48) (xy 63.5 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f74e3798-f3eb-4927-965e-3b6c57ce44f3")
-	)
-	(wire
-		(pts
 			(xy 72.39 105.41) (xy 72.39 109.22)
 		)
 		(stroke
@@ -5580,16 +5246,6 @@
 			(type default)
 		)
 		(uuid "fb259fb9-9d4d-44d5-8c4c-dc463441a803")
-	)
-	(wire
-		(pts
-			(xy 180.34 40.64) (xy 180.34 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbf92ece-aaef-47a4-a8ba-8f61813c5a17")
 	)
 	(wire
 		(pts
@@ -5640,16 +5296,6 @@
 			(justify left bottom)
 		)
 		(uuid "7aa2318c-ca91-44e8-83c0-89b3cc2db3d0")
-	)
-	(label "+3.3V_A"
-		(at 201.93 43.18 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "84636d69-311f-40a7-b779-998b5fcd6a0b")
 	)
 	(label "UPD_PCIE_TX_P"
 		(at 101.6 57.15 0)
@@ -6000,233 +5646,6 @@
 		(uuid "f632eab8-3326-403c-a980-b6a92459441e")
 	)
 	(symbol
-		(lib_id "Device:FerriteBead_Small")
-		(at 177.8 39.37 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00807781-8f73-451b-9a00-7785d2a671ea")
-		(property "Reference" "FB1"
-			(at 182.118 33.274 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220 Ohm @ 100MHz, low DCR"
-			(at 181.864 35.814 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
-			(at 177.8 41.148 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Ferrite bead, small symbol"
-			(at 177.8 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 177.8 39.37 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 177.8 39.37 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" ""
-			(at 177.8 39.37 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c834a156-4a9f-456b-a33d-488895b5c9cd")
-		)
-		(pin "2"
-			(uuid "e9390cba-e5f5-4e50-b798-6fb15f70b03d")
-		)
-		(instances
-			(project "ROV_PCIE_USB_HUB_FINAL"
-				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
-					(reference "FB1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 63.5 26.67 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "01e51e2a-97f2-4e85-aac4-3968d0ea4e1d")
-		(property "Reference" "C16"
-			(at 66.04 25.4062 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22u"
-			(at 66.04 27.9462 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 63.5 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 63.5 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 63.5 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 63.5 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" ""
-			(at 63.5 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e4e856b1-9054-4b35-81be-6457199f4dd5")
-		)
-		(pin "1"
-			(uuid "c071ce4a-6661-4be3-b480-29b195dc7066")
-		)
-		(instances
-			(project "ROV_PCIE_USB_HUB_FINAL"
-				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
-					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 104.14 139.7 90)
 		(unit 1)
@@ -6237,7 +5656,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "02a60e56-7fd0-4518-8e1a-36db2a0657d7")
-		(property "Reference" "R10"
+		(property "Reference" "R12"
 			(at 101.346 137.414 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6332,123 +5751,7 @@
 		(instances
 			(project "ROV_PCIE_USB_HUB_FINAL"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 48.26 26.67 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0b3a7eb0-7cee-450e-8382-50e42cf7999f")
-		(property "Reference" "C11"
-			(at 49.276 32.512 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 45.72 27.9462 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 48.26 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 48.26 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 48.26 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 48.26 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" ""
-			(at 48.26 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "90154c37-0c02-48ff-8518-d2e0386abac6")
-		)
-		(pin "1"
-			(uuid "6e8ff893-2922-4031-addc-8a72cfff3fe8")
-		)
-		(instances
-			(project "ROV_PCIE_USB_HUB_FINAL"
-				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
-					(reference "C11")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -6465,7 +5768,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "11174dbd-ac0c-4a18-8b5b-97a9a0928a50")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR011"
 			(at 106.68 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -6525,7 +5828,7 @@
 		(instances
 			(project "ROV_PCIE_USB_HUB_FINAL"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
-					(reference "#PWR09")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -6542,7 +5845,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "14988a31-e929-40d4-bfa3-17b5008f6eed")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR017"
 			(at 210.82 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -6602,7 +5905,7 @@
 		(instances
 			(project "ROV_PCIE_USB_HUB_FINAL"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
-					(reference "#PWR014")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -6619,7 +5922,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "171c9154-aeea-405f-b9b6-5a346ffcda9a")
-		(property "Reference" "C19"
+		(property "Reference" "C9"
 			(at 86.868 55.626 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6714,7 +6017,7 @@
 		(instances
 			(project "ROV_PCIE_USB_HUB_FINAL"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
-					(reference "C19")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -6732,7 +6035,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "18287337-cfca-4888-a589-454998405f13")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR018"
 			(at 212.09 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -6792,7 +6095,123 @@
 		(instances
 			(project "ROV_PCIE_USB_HUB_FINAL"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
-					(reference "#PWR015")
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 257.81 36.83 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1f3e83d3-becb-41f8-b108-5be7fe007bd6")
+		(property "Reference" "C26"
+			(at 258.826 42.672 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 255.27 38.1062 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 257.81 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 257.81 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 257.81 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 257.81 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 257.81 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ba51a897-af52-468f-acab-c9f4054f81bc")
+		)
+		(pin "1"
+			(uuid "02c61a20-f4c1-4f41-a67b-f05998ba2677")
+		)
+		(instances
+			(project "ROV_PCIE_USB_HUB_FINAL"
+				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -6809,7 +6228,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1fe2cc03-cb41-4fb8-8132-acac21faf9a6")
-		(property "Reference" "C25"
+		(property "Reference" "C20"
 			(at 225.298 42.672 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6907,7 +6326,7 @@
 		(instances
 			(project "ROV_PCIE_USB_HUB_FINAL"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
-					(reference "C25")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -6915,7 +6334,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 63.5 44.45 0)
+		(at 106.68 36.83 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -6925,8 +6344,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2cd5c7c4-7eb0-42ad-bb1c-106f2fd3f9e8")
-		(property "Reference" "C17"
-			(at 65.532 50.292 0)
+		(property "Reference" "C16"
+			(at 108.712 42.672 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6937,7 +6356,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 60.96 45.7262 0)
+			(at 104.14 38.1062 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6949,7 +6368,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 63.5 44.45 0)
+			(at 106.68 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6960,7 +6379,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 44.45 0)
+			(at 106.68 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6971,7 +6390,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 63.5 44.45 0)
+			(at 106.68 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6982,7 +6401,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 63.5 44.45 0)
+			(at 106.68 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6993,7 +6412,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 63.5 44.45 0)
+			(at 106.68 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7004,7 +6423,7 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 63.5 44.45 0)
+			(at 106.68 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7023,7 +6442,7 @@
 		(instances
 			(project "ROV_PCIE_USB_HUB_FINAL"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
-					(reference "C17")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -7040,7 +6459,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2de20089-5e3c-46ad-8dc3-5f72e26bf670")
-		(property "Reference" "R5"
+		(property "Reference" "R7"
 			(at 67.31 88.646 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7135,7 +6554,7 @@
 		(instances
 			(project "ROV_PCIE_USB_HUB_FINAL"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
-					(reference "R5")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -7152,7 +6571,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2f2912de-12a7-4c94-957a-36b5f448fb42")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR014"
 			(at 134.62 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -7212,123 +6631,7 @@
 		(instances
 			(project "ROV_PCIE_USB_HUB_FINAL"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 38.1 26.67 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "365b26f8-15dc-4d3b-b81e-eab17313cdea")
-		(property "Reference" "C6"
-			(at 39.116 32.512 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 35.56 27.9462 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 38.1 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 38.1 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 38.1 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 38.1 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" ""
-			(at 38.1 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a74a0495-a704-40b3-89a3-694e42019556")
-		)
-		(pin "1"
-			(uuid "1898e8e5-4ef0-4f71-9150-3a4234af0989")
-		)
-		(instances
-			(project "ROV_PCIE_USB_HUB_FINAL"
-				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
-					(reference "C6")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -7345,7 +6648,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3ccf5fe0-6cd5-4fdb-9d8c-08088806e602")
-		(property "Reference" "C24"
+		(property "Reference" "C19"
 			(at 220.218 42.672 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7443,7 +6746,123 @@
 		(instances
 			(project "ROV_PCIE_USB_HUB_FINAL"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
-					(reference "C24")
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 237.49 36.83 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3ceab4f4-d369-4ff7-868d-3759d9f65161")
+		(property "Reference" "C22"
+			(at 238.506 42.672 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 234.95 38.1062 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 237.49 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 237.49 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 237.49 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 237.49 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 237.49 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ae1145bd-3043-4a89-8699-1c0858cb312e")
+		)
+		(pin "1"
+			(uuid "b1d808cf-563a-49c2-aca5-88262e7d416a")
+		)
+		(instances
+			(project "ROV_PCIE_USB_HUB_FINAL"
+				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -7460,7 +6879,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "415928e0-a51f-41cb-9e7d-1fb47f964b0c")
-		(property "Reference" "C21"
+		(property "Reference" "C12"
 			(at 92.456 122.936 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7557,7 +6976,7 @@
 		(instances
 			(project "ROV_PCIE_USB_HUB_FINAL"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
-					(reference "C21")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -7575,7 +6994,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4706bf6e-ef10-45ec-9104-970dbce9777a")
-		(property "Reference" "R9"
+		(property "Reference" "R11"
 			(at 82.55 88.646 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7670,7 +7089,7 @@
 		(instances
 			(project "ROV_PCIE_USB_HUB_FINAL"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
-					(reference "R9")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -7678,7 +7097,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 27.94 44.45 0)
+		(at 71.12 36.83 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -7688,8 +7107,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4a6242a0-2059-441e-9d2d-34f589046471")
-		(property "Reference" "C3"
-			(at 29.972 50.292 0)
+		(property "Reference" "C5"
+			(at 73.152 42.672 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7700,7 +7119,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 25.4 45.7262 0)
+			(at 68.58 38.1062 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7712,7 +7131,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 27.94 44.45 0)
+			(at 71.12 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7723,7 +7142,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 44.45 0)
+			(at 71.12 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7734,7 +7153,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 27.94 44.45 0)
+			(at 71.12 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7745,7 +7164,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 27.94 44.45 0)
+			(at 71.12 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7756,7 +7175,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 27.94 44.45 0)
+			(at 71.12 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7767,7 +7186,7 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 27.94 44.45 0)
+			(at 71.12 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7786,7 +7205,7 @@
 		(instances
 			(project "ROV_PCIE_USB_HUB_FINAL"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
-					(reference "C3")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -7804,7 +7223,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4e2ce40e-878d-4921-81e5-76a5914d0856")
-		(property "Reference" "R11"
+		(property "Reference" "R13"
 			(at 109.728 113.538 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7899,7 +7318,7 @@
 		(instances
 			(project "ROV_PCIE_USB_HUB_FINAL"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
-					(reference "R11")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -7927,7 +7346,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ABM8-24.000MHZ-B2-T"
+		(property "Value" "ABM11-24.000MHZ-D2X-T"
 			(at 78.486 125.73 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7937,7 +7356,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+		(property "Footprint" "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm"
 			(at 99.06 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -8026,7 +7445,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 53.34 44.45 0)
+		(at 96.52 36.83 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -8037,7 +7456,7 @@
 		(dnp no)
 		(uuid "52a2a263-46ae-4814-acfe-996ba4eb9b8a")
 		(property "Reference" "C14"
-			(at 55.372 50.292 0)
+			(at 98.552 42.672 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8048,7 +7467,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 50.8 45.7262 0)
+			(at 93.98 38.1062 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8060,7 +7479,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 53.34 44.45 0)
+			(at 96.52 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8071,7 +7490,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 44.45 0)
+			(at 96.52 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8082,7 +7501,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 53.34 44.45 0)
+			(at 96.52 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8093,7 +7512,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 53.34 44.45 0)
+			(at 96.52 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8104,7 +7523,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 53.34 44.45 0)
+			(at 96.52 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8115,7 +7534,7 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 53.34 44.45 0)
+			(at 96.52 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8152,7 +7571,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "59972695-e344-42b0-8811-800d7bb57bef")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR016"
 			(at 162.56 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -8212,7 +7631,7 @@
 		(instances
 			(project "ROV_PCIE_USB_HUB_FINAL"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
-					(reference "#PWR013")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -8220,7 +7639,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 43.18 44.45 0)
+		(at 86.36 36.83 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -8230,8 +7649,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5c8d515b-2d71-413c-a974-0f6357bec8b0")
-		(property "Reference" "C9"
-			(at 45.212 50.292 0)
+		(property "Reference" "C8"
+			(at 88.392 42.672 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8242,7 +7661,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 40.64 45.7262 0)
+			(at 83.82 38.1062 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8254,7 +7673,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 43.18 44.45 0)
+			(at 86.36 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8265,7 +7684,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 44.45 0)
+			(at 86.36 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8276,7 +7695,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 43.18 44.45 0)
+			(at 86.36 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8287,7 +7706,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 43.18 44.45 0)
+			(at 86.36 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8298,7 +7717,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 43.18 44.45 0)
+			(at 86.36 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8309,7 +7728,7 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 43.18 44.45 0)
+			(at 86.36 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8328,7 +7747,7 @@
 		(instances
 			(project "ROV_PCIE_USB_HUB_FINAL"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
-					(reference "C9")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -8336,7 +7755,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 27.94 26.67 0)
+		(at 232.41 36.83 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -8345,9 +7764,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "5ebdd84a-d4b4-41b8-a51d-b309a2a2856c")
-		(property "Reference" "C2"
-			(at 28.956 32.512 0)
+		(uuid "65444dad-d711-4cf4-b46f-0985bb3efc24")
+		(property "Reference" "C21"
+			(at 233.426 42.672 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8358,7 +7777,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 25.4 27.9462 0)
+			(at 229.87 38.1062 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8370,7 +7789,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 27.94 26.67 0)
+			(at 232.41 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8381,7 +7800,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 26.67 0)
+			(at 232.41 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8392,7 +7811,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 27.94 26.67 0)
+			(at 232.41 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8403,7 +7822,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 27.94 26.67 0)
+			(at 232.41 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8414,7 +7833,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 27.94 26.67 0)
+			(at 232.41 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8425,7 +7844,7 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 27.94 26.67 0)
+			(at 232.41 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8436,15 +7855,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "a45be833-3f57-4e54-8d20-794df194d8a9")
+			(uuid "fe437d4c-6d25-4058-8289-c3809d490b3d")
 		)
 		(pin "1"
-			(uuid "1fe12d0b-bfb1-4de1-b9ee-35115c35f092")
+			(uuid "5a7e40de-27e0-49b5-beb9-922096fcfca0")
 		)
 		(instances
 			(project "ROV_PCIE_USB_HUB_FINAL"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
-					(reference "C2")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -8565,7 +7984,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6b013418-fa8b-4771-a26f-1a1294be5e6a")
-		(property "Reference" "C20"
+		(property "Reference" "C10"
 			(at 86.868 58.42 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8660,7 +8079,7 @@
 		(instances
 			(project "ROV_PCIE_USB_HUB_FINAL"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
-					(reference "C20")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -8677,7 +8096,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "73a631f5-a228-4717-8b6d-738978d8b6bb")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR08"
 			(at 54.61 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -8737,7 +8156,7 @@
 		(instances
 			(project "ROV_PCIE_USB_HUB_FINAL"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
-					(reference "#PWR04")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -8745,7 +8164,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 48.26 44.45 0)
+		(at 91.44 36.83 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -8755,8 +8174,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "756b1e13-f009-4b4f-9eda-fa3dfac9edbe")
-		(property "Reference" "C12"
-			(at 50.292 50.292 0)
+		(property "Reference" "C11"
+			(at 93.472 42.672 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8767,7 +8186,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 45.72 45.7262 0)
+			(at 88.9 38.1062 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8779,7 +8198,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 48.26 44.45 0)
+			(at 91.44 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8790,7 +8209,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 44.45 0)
+			(at 91.44 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8801,7 +8220,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 48.26 44.45 0)
+			(at 91.44 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8812,7 +8231,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 48.26 44.45 0)
+			(at 91.44 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8823,7 +8242,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 48.26 44.45 0)
+			(at 91.44 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8834,7 +8253,7 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 48.26 44.45 0)
+			(at 91.44 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8853,123 +8272,7 @@
 		(instances
 			(project "ROV_PCIE_USB_HUB_FINAL"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
-					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 33.02 26.67 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "78dedc7a-ab53-4c7a-8a3c-5d75f0c89f4b")
-		(property "Reference" "C4"
-			(at 34.036 32.512 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 30.48 27.9462 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 33.02 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 33.02 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 33.02 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 33.02 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" ""
-			(at 33.02 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "76266a2a-d286-4eff-8bc5-87883a8d4d25")
-		)
-		(pin "1"
-			(uuid "71722d4e-649c-4e77-bd9c-e8eb393ae676")
-		)
-		(instances
-			(project "ROV_PCIE_USB_HUB_FINAL"
-				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
-					(reference "C4")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -8977,7 +8280,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 72.39 49.53 0)
+		(at 115.57 41.91 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -8987,8 +8290,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "86060ae5-8dc6-4f50-8a63-e5e20650d5f5")
-		(property "Reference" "#PWR07"
-			(at 72.39 55.88 0)
+		(property "Reference" "#PWR013"
+			(at 115.57 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8999,7 +8302,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 76.2 51.054 0)
+			(at 119.38 43.434 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9009,7 +8312,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 49.53 0)
+			(at 115.57 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9020,7 +8323,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 49.53 0)
+			(at 115.57 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9031,7 +8334,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 72.39 49.53 0)
+			(at 115.57 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9047,7 +8350,7 @@
 		(instances
 			(project "ROV_PCIE_USB_HUB_FINAL"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
-					(reference "#PWR07")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -9055,7 +8358,8 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 72.39 44.45 0)
+		(at 252.73 36.83 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9063,10 +8367,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8ce00c0a-48aa-4cb3-93c0-b26ec8d77ebe")
-		(property "Reference" "C18"
-			(at 74.93 43.1862 0)
+		(uuid "89cb006a-72b0-4041-be1c-abb0bc157f4d")
+		(property "Reference" "C25"
+			(at 253.746 42.672 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9076,8 +8379,9 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u"
-			(at 74.93 45.7262 0)
+		(property "Value" "100n"
+			(at 250.19 38.1062 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9087,8 +8391,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 72.39 44.45 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 252.73 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9099,7 +8403,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 44.45 0)
+			(at 252.73 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9110,7 +8414,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 72.39 44.45 0)
+			(at 252.73 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9121,7 +8425,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 72.39 44.45 0)
+			(at 252.73 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9132,7 +8436,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 72.39 44.45 0)
+			(at 252.73 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9143,7 +8447,122 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 72.39 44.45 0)
+			(at 252.73 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "147458b3-5ec0-4522-a1b7-d58667d20234")
+		)
+		(pin "1"
+			(uuid "1c5353ce-39ea-4606-a328-fd721bda0edf")
+		)
+		(instances
+			(project "ROV_PCIE_USB_HUB_FINAL"
+				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 115.57 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ce00c0a-48aa-4cb3-93c0-b26ec8d77ebe")
+		(property "Reference" "C17"
+			(at 118.11 35.5662 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 118.11 38.1062 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 115.57 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 115.57 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 115.57 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 115.57 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 115.57 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9162,7 +8581,7 @@
 		(instances
 			(project "ROV_PCIE_USB_HUB_FINAL"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
-					(reference "C18")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -9170,7 +8589,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 38.1 44.45 0)
+		(at 247.65 36.83 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -9179,9 +8598,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "8f885f9d-d7ca-42ae-8ad9-2c68454e5d3a")
-		(property "Reference" "C7"
-			(at 40.132 50.292 0)
+		(uuid "8f5b6ee4-7720-4a0d-85cb-b21691575c64")
+		(property "Reference" "C24"
+			(at 248.666 42.672 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9192,7 +8611,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 35.56 45.7262 0)
+			(at 245.11 38.1062 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9204,7 +8623,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 38.1 44.45 0)
+			(at 247.65 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9215,7 +8634,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 44.45 0)
+			(at 247.65 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9226,7 +8645,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 38.1 44.45 0)
+			(at 247.65 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9237,7 +8656,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 38.1 44.45 0)
+			(at 247.65 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9248,7 +8667,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 38.1 44.45 0)
+			(at 247.65 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9259,7 +8678,123 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 38.1 44.45 0)
+			(at 247.65 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a84e9149-ab7d-4171-8899-66470fc07760")
+		)
+		(pin "1"
+			(uuid "c0ee98fa-b448-4d5c-9a1b-5b6425c1448d")
+		)
+		(instances
+			(project "ROV_PCIE_USB_HUB_FINAL"
+				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 81.28 36.83 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8f885f9d-d7ca-42ae-8ad9-2c68454e5d3a")
+		(property "Reference" "C7"
+			(at 83.312 42.672 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 78.74 38.1062 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 81.28 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 81.28 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 81.28 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 81.28 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 81.28 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9295,7 +8830,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "921d8304-4d11-4f25-aa4d-9f031df4c97d")
-		(property "Reference" "R4"
+		(property "Reference" "R6"
 			(at 53.594 73.152 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9390,122 +8925,7 @@
 		(instances
 			(project "ROV_PCIE_USB_HUB_FINAL"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 212.09 36.83 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9579e4ae-1b9f-421f-ab55-25c289891242")
-		(property "Reference" "C23"
-			(at 214.63 35.5662 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 214.63 38.1062 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 212.09 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 212.09 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 212.09 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 212.09 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" ""
-			(at 212.09 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "128f9d51-3ef2-4184-983a-89247e0932ad")
-		)
-		(pin "1"
-			(uuid "4f4c03ca-a466-47af-9e6a-1edd40633e7f")
-		)
-		(instances
-			(project "ROV_PCIE_USB_HUB_FINAL"
-				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
-					(reference "C23")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -9522,7 +8942,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "99558d77-7f0e-4e7f-9ad8-9e029e5312a3")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR012"
 			(at 114.3 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -9582,7 +9002,7 @@
 		(instances
 			(project "ROV_PCIE_USB_HUB_FINAL"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
-					(reference "#PWR010")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -9875,7 +9295,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 22.86 44.45 0)
+		(at 66.04 36.83 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -9885,8 +9305,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b657be86-e57e-4865-8810-18ad01b6b598")
-		(property "Reference" "C1"
-			(at 24.892 50.292 0)
+		(property "Reference" "C4"
+			(at 68.072 42.672 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9897,7 +9317,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 20.32 45.7262 0)
+			(at 63.5 38.1062 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9909,7 +9329,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 22.86 44.45 0)
+			(at 66.04 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9920,7 +9340,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 44.45 0)
+			(at 66.04 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9931,7 +9351,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 22.86 44.45 0)
+			(at 66.04 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9942,7 +9362,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 22.86 44.45 0)
+			(at 66.04 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9953,7 +9373,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 22.86 44.45 0)
+			(at 66.04 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9964,7 +9384,7 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 22.86 44.45 0)
+			(at 66.04 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9983,7 +9403,7 @@
 		(instances
 			(project "ROV_PCIE_USB_HUB_FINAL"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
-					(reference "C1")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -10001,7 +9421,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "baa192f3-e693-4649-aa13-5ac049b66f6d")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR010"
 			(at 85.09 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -10061,7 +9481,7 @@
 		(instances
 			(project "ROV_PCIE_USB_HUB_FINAL"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
-					(reference "#PWR08")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -10069,7 +9489,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 33.02 44.45 0)
+		(at 76.2 36.83 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -10079,8 +9499,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c23c6ff9-60cc-4ccf-a40b-9df104fdce49")
-		(property "Reference" "C5"
-			(at 35.052 50.292 0)
+		(property "Reference" "C6"
+			(at 78.232 42.672 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10091,7 +9511,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 30.48 45.7262 0)
+			(at 73.66 38.1062 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10103,7 +9523,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 33.02 44.45 0)
+			(at 76.2 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10114,7 +9534,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 44.45 0)
+			(at 76.2 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10125,7 +9545,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 33.02 44.45 0)
+			(at 76.2 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10136,7 +9556,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 33.02 44.45 0)
+			(at 76.2 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10147,7 +9567,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 33.02 44.45 0)
+			(at 76.2 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10158,7 +9578,7 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 33.02 44.45 0)
+			(at 76.2 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10177,7 +9597,7 @@
 		(instances
 			(project "ROV_PCIE_USB_HUB_FINAL"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
-					(reference "C5")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -10194,7 +9614,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c4920aa5-a522-48cf-a616-7c0bf69f5cfc")
-		(property "Reference" "R6"
+		(property "Reference" "R8"
 			(at 72.39 88.646 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10289,7 +9709,7 @@
 		(instances
 			(project "ROV_PCIE_USB_HUB_FINAL"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
-					(reference "R6")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -10297,7 +9717,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 162.56 40.64 0)
+		(at 162.56 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10306,8 +9726,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c59fed69-f69f-4580-a22f-181954d408f7")
-		(property "Reference" "#PWR012"
-			(at 162.56 44.45 0)
+		(property "Reference" "#PWR015"
+			(at 162.56 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10318,7 +9738,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 166.878 39.878 0)
+			(at 166.878 38.608 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10328,7 +9748,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 40.64 0)
+			(at 162.56 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10339,7 +9759,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 40.64 0)
+			(at 162.56 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10350,7 +9770,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 162.56 40.64 0)
+			(at 162.56 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10366,7 +9786,7 @@
 		(instances
 			(project "ROV_PCIE_USB_HUB_FINAL"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
-					(reference "#PWR012")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -10384,7 +9804,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d3105403-c509-4497-80fb-2412611460e8")
-		(property "Reference" "R8"
+		(property "Reference" "R10"
 			(at 77.47 88.646 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10479,7 +9899,238 @@
 		(instances
 			(project "ROV_PCIE_USB_HUB_FINAL"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
-					(reference "R8")
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 212.09 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4a4032f-c668-450a-8e9a-dc052acfaa54")
+		(property "Reference" "C18"
+			(at 214.63 35.5662 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 214.63 38.1062 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 212.09 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 212.09 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 212.09 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 212.09 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 212.09 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "020da94a-2ad2-40f2-b908-3052b31af25c")
+		)
+		(pin "1"
+			(uuid "59bf67ad-b4df-48f0-8fb2-6937f33dbcfd")
+		)
+		(instances
+			(project "ROV_PCIE_USB_HUB_FINAL"
+				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 242.57 36.83 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dba95e76-bcab-4333-a91a-687a5e8d5274")
+		(property "Reference" "C23"
+			(at 243.586 42.672 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 240.03 38.1062 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 242.57 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 242.57 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 242.57 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 242.57 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 242.57 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4f0b77d9-c2bc-451b-9d74-bd9f2229f512")
+		)
+		(pin "1"
+			(uuid "0dbb815e-077f-4963-adc2-7b8ac3b911f2")
+		)
+		(instances
+			(project "ROV_PCIE_USB_HUB_FINAL"
+				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -10497,7 +10148,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dc68abc7-c723-413f-a86c-69b3bfa1f82a")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR09"
 			(at 57.15 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -10557,7 +10208,7 @@
 		(instances
 			(project "ROV_PCIE_USB_HUB_FINAL"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
-					(reference "#PWR05")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -10575,7 +10226,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e3b2fe75-28e4-491c-abbf-fb0361bb250e")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR07"
 			(at 54.61 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -10635,7 +10286,7 @@
 		(instances
 			(project "ROV_PCIE_USB_HUB_FINAL"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
-					(reference "#PWR03")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -10653,7 +10304,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e508ac78-ce3b-4a69-aea0-e6cbb40f20f8")
-		(property "Reference" "C10"
+		(property "Reference" "C2"
 			(at 41.656 103.124 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10750,85 +10401,7 @@
 		(instances
 			(project "ROV_PCIE_USB_HUB_FINAL"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 63.5 31.75 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f0ca591d-ffab-422a-8e3f-e3da6f63af08")
-		(property "Reference" "#PWR06"
-			(at 63.5 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 67.31 33.274 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "67512fa8-c348-45cc-9c03-42a462d7eca8")
-		)
-		(instances
-			(project "ROV_PCIE_USB_HUB_FINAL"
-				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
-					(reference "#PWR06")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -10845,7 +10418,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f27317e7-ef67-49be-83db-5f49cd25bf43")
-		(property "Reference" "R12"
+		(property "Reference" "R14"
 			(at 112.014 124.714 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10940,7 +10513,7 @@
 		(instances
 			(project "ROV_PCIE_USB_HUB_FINAL"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
-					(reference "R12")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -10948,7 +10521,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 58.42 44.45 0)
+		(at 101.6 36.83 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -10959,7 +10532,7 @@
 		(dnp no)
 		(uuid "f2feff60-bca4-47f5-ae21-cc4a7e893371")
 		(property "Reference" "C15"
-			(at 60.452 50.292 0)
+			(at 103.632 42.672 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10970,7 +10543,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 55.88 45.7262 0)
+			(at 99.06 38.1062 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10982,7 +10555,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 58.42 44.45 0)
+			(at 101.6 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10993,7 +10566,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 44.45 0)
+			(at 101.6 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11004,7 +10577,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 58.42 44.45 0)
+			(at 101.6 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11015,7 +10588,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 58.42 44.45 0)
+			(at 101.6 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11026,7 +10599,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 58.42 44.45 0)
+			(at 101.6 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11037,7 +10610,7 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 58.42 44.45 0)
+			(at 101.6 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11073,7 +10646,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f367f998-4825-43bb-82ab-3ca46577c113")
-		(property "Reference" "C22"
+		(property "Reference" "C13"
 			(at 92.71 133.35 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11170,7 +10743,7 @@
 		(instances
 			(project "ROV_PCIE_USB_HUB_FINAL"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
-					(reference "C22")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -11188,7 +10761,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f437311a-5e42-4c94-826b-e1ea72b87c07")
-		(property "Reference" "R7"
+		(property "Reference" "R9"
 			(at 75.946 111.252 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11283,7 +10856,7 @@
 		(instances
 			(project "ROV_PCIE_USB_HUB_FINAL"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
-					(reference "R7")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -11291,7 +10864,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 43.18 26.67 0)
+		(at 60.96 36.83 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -11300,9 +10873,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "f64cf2bf-d84b-41b9-ad21-a6fd136444be")
-		(property "Reference" "C8"
-			(at 44.196 32.512 0)
+		(uuid "f4e490f4-d054-4bf2-b88c-49345d198ab6")
+		(property "Reference" "C3"
+			(at 62.992 42.672 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11313,7 +10886,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 40.64 27.9462 0)
+			(at 58.42 38.1062 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11325,7 +10898,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 43.18 26.67 0)
+			(at 60.96 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11336,7 +10909,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 26.67 0)
+			(at 60.96 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11347,7 +10920,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 43.18 26.67 0)
+			(at 60.96 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11358,7 +10931,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 43.18 26.67 0)
+			(at 60.96 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11369,7 +10942,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 43.18 26.67 0)
+			(at 60.96 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11380,7 +10953,7 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 43.18 26.67 0)
+			(at 60.96 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11391,210 +10964,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "e006f82d-99e8-4346-bb56-01fc29df33fa")
+			(uuid "fa9f2ec2-5090-4836-9a2e-e8c4e21735a5")
 		)
 		(pin "1"
-			(uuid "4c0ac895-be7d-44b0-8be8-4a9706903e4b")
+			(uuid "489253ce-63e3-44f7-89a0-15e6c3434220")
 		)
 		(instances
 			(project "ROV_PCIE_USB_HUB_FINAL"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 53.34 26.67 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f7f49618-adf6-4989-a0c8-61d3695fee14")
-		(property "Reference" "C13"
-			(at 54.356 32.512 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 50.8 27.9462 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 53.34 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 53.34 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 53.34 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 53.34 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" ""
-			(at 53.34 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "58ef8b96-640e-479e-9bbf-2dc0004c9e00")
-		)
-		(pin "1"
-			(uuid "0a7dcae4-c4f6-433f-9d07-87b7a7deef8d")
-		)
-		(instances
-			(project "ROV_PCIE_USB_HUB_FINAL"
-				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
-					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 180.34 40.64 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fe82830a-b4ad-471e-81bf-568c2ef23806")
-		(property "Reference" "#FLG05"
-			(at 182.245 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 185.42 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 180.34 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 180.34 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5abc5cc5-0c73-4979-817a-3faa79d0f413")
-		)
-		(instances
-			(project "ROV_PCIE_USB_HUB_FINAL"
-				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/84da39c9-f9af-4929-95b4-a4131cfa0797"
-					(reference "#FLG05")
+					(reference "C3")
 					(unit 1)
 				)
 			)

@@ -53,7 +53,7 @@
       "board_outline_area",
       "ly_points"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
+    "visible_layers": "ffffffff_ffffffff_fffffff5_ffffffff",
     "zone_display_mode": 1
   },
   "git": {
@@ -99,11 +99,11 @@
       162,
       147,
       91,
-      67,
-      91,
-      91,
-      91,
       71,
+      91,
+      91,
+      91,
+      74,
       91,
       91,
       91,
