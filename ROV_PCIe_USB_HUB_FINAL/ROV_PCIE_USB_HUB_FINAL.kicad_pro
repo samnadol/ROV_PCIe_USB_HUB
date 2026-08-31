@@ -500,7 +500,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -819,8 +819,12 @@
         "uuid": "95e7ccb6-701a-4570-b93f-f5431fbf25de"
       }
     ],
-    "used_designators": "NT1-5,Q1,R1-50,#FLG1-10,FB1-9,C1-83,U1-23,D1-4,#PWR1-106,Y1-6,J1-13,H1-4,L1-2",
-    "variants": []
+    "used_designators": "NT1-5,J1-13,#FLG1-10,H1-4,R1-50,Y1-6,#PWR1-106,D1-4,U1-23,C1-83,FB1-9,Q1,L1-2",
+    "variants": [
+      {
+        "name": "USB2414"
+      }
+    ]
   },
   "sheets": [
     [
