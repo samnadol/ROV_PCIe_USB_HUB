@@ -1336,7 +1336,7 @@
 			)
 		)
 		(property "Footprint" "Package_SON:Winbond_USON-8-1EP_3x2mm_P0.5mm_EP0.2x1.6mm"
-			(at 34.798 -10.668 0)
+			(at 34.544 -13.716 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1348,7 +1348,7 @@
 			)
 		)
 		(property "Datasheet" "MX25V5126FZUI"
-			(at 9.652 -8.636 0)
+			(at 9.398 -11.684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)

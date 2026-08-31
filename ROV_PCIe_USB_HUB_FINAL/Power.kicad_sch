@@ -2292,7 +2292,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0bebc8d3-485b-452f-9232-0f70aa76d16d")
-		(property "Reference" "C71"
+		(property "Reference" "C70"
 			(at 138.43 62.2362 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2389,7 +2389,7 @@
 		(instances
 			(project "ROV_PCIE_USB_HUB_FINAL"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/42000762-0d3e-4a2e-8bb0-02360d8a7156"
-					(reference "C71")
+					(reference "C70")
 					(unit 1)
 				)
 			)
@@ -2483,7 +2483,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "199835a5-b181-43fe-97bf-b7f4f17f411f")
-		(property "Reference" "R44"
+		(property "Reference" "R40"
 			(at 106.68 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2580,7 +2580,7 @@
 		(instances
 			(project "ROV_PCIE_USB_HUB_FINAL"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/42000762-0d3e-4a2e-8bb0-02360d8a7156"
-					(reference "R44")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -2675,7 +2675,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "3b235ccb-f581-4a3e-b5d6-14c6ecb21c22")
-		(property "Reference" "C72"
+		(property "Reference" "C71"
 			(at 138.43 114.3062 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2772,7 +2772,7 @@
 		(instances
 			(project "ROV_PCIE_USB_HUB_FINAL"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/42000762-0d3e-4a2e-8bb0-02360d8a7156"
-					(reference "C72")
+					(reference "C71")
 					(unit 1)
 				)
 			)
@@ -2943,7 +2943,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "46aea9fc-43d3-488c-9ebc-47bd540225b3")
-		(property "Reference" "C68"
+		(property "Reference" "C67"
 			(at 72.39 120.6562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3040,7 +3040,7 @@
 		(instances
 			(project "ROV_PCIE_USB_HUB_FINAL"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/42000762-0d3e-4a2e-8bb0-02360d8a7156"
-					(reference "C68")
+					(reference "C67")
 					(unit 1)
 				)
 			)
@@ -3185,7 +3185,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4fd3990f-490c-414a-866a-e4c543641bad")
-		(property "Reference" "C74"
+		(property "Reference" "C73"
 			(at 151.13 118.1162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3282,7 +3282,7 @@
 		(instances
 			(project "ROV_PCIE_USB_HUB_FINAL"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/42000762-0d3e-4a2e-8bb0-02360d8a7156"
-					(reference "C74")
+					(reference "C73")
 					(unit 1)
 				)
 			)
@@ -3601,7 +3601,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8e2777f1-9532-4cdb-96ed-09c2581603da")
-		(property "Reference" "C69"
+		(property "Reference" "C68"
 			(at 82.55 68.5862 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3698,7 +3698,7 @@
 		(instances
 			(project "ROV_PCIE_USB_HUB_FINAL"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/42000762-0d3e-4a2e-8bb0-02360d8a7156"
-					(reference "C69")
+					(reference "C68")
 					(unit 1)
 				)
 			)
@@ -3716,7 +3716,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "90a8fe06-6f98-470e-9108-e19659707a1b")
-		(property "Reference" "C70"
+		(property "Reference" "C69"
 			(at 82.55 120.6562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3813,7 +3813,7 @@
 		(instances
 			(project "ROV_PCIE_USB_HUB_FINAL"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/42000762-0d3e-4a2e-8bb0-02360d8a7156"
-					(reference "C70")
+					(reference "C69")
 					(unit 1)
 				)
 			)
@@ -3830,7 +3830,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "96a093ee-6543-4633-a198-6d55a90e53bb")
-		(property "Reference" "R43"
+		(property "Reference" "R39"
 			(at 106.68 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3927,7 +3927,7 @@
 		(instances
 			(project "ROV_PCIE_USB_HUB_FINAL"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/42000762-0d3e-4a2e-8bb0-02360d8a7156"
-					(reference "R43")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -3945,7 +3945,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "976364e0-9faa-452f-9f10-347682f6771b")
-		(property "Reference" "R46"
+		(property "Reference" "R42"
 			(at 127 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4042,7 +4042,7 @@
 		(instances
 			(project "ROV_PCIE_USB_HUB_FINAL"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/42000762-0d3e-4a2e-8bb0-02360d8a7156"
-					(reference "R46")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -4138,7 +4138,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8b6b814-f573-4d46-8e37-814a591bcb0e")
-		(property "Reference" "C73"
+		(property "Reference" "C72"
 			(at 151.13 66.0462 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4235,7 +4235,7 @@
 		(instances
 			(project "ROV_PCIE_USB_HUB_FINAL"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/42000762-0d3e-4a2e-8bb0-02360d8a7156"
-					(reference "C73")
+					(reference "C72")
 					(unit 1)
 				)
 			)
@@ -4379,7 +4379,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bc7c4017-7b7d-4b69-9cd0-7f9c94506e68")
-		(property "Reference" "C67"
+		(property "Reference" "C66"
 			(at 72.39 68.5862 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4476,7 +4476,7 @@
 		(instances
 			(project "ROV_PCIE_USB_HUB_FINAL"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/42000762-0d3e-4a2e-8bb0-02360d8a7156"
-					(reference "C67")
+					(reference "C66")
 					(unit 1)
 				)
 			)
@@ -4494,7 +4494,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2519581-85cc-4304-a254-1e32962da3a9")
-		(property "Reference" "R47"
+		(property "Reference" "R43"
 			(at 127 114.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4591,7 +4591,7 @@
 		(instances
 			(project "ROV_PCIE_USB_HUB_FINAL"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/42000762-0d3e-4a2e-8bb0-02360d8a7156"
-					(reference "R47")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -4609,7 +4609,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6c434f8-be0e-4503-8d33-4a0b3404eece")
-		(property "Reference" "R45"
+		(property "Reference" "R41"
 			(at 127 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4706,7 +4706,7 @@
 		(instances
 			(project "ROV_PCIE_USB_HUB_FINAL"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/42000762-0d3e-4a2e-8bb0-02360d8a7156"
-					(reference "R45")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -4724,7 +4724,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2386235-670e-4555-a584-1a64046fe3a3")
-		(property "Reference" "R48"
+		(property "Reference" "R44"
 			(at 127 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4821,7 +4821,7 @@
 		(instances
 			(project "ROV_PCIE_USB_HUB_FINAL"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/42000762-0d3e-4a2e-8bb0-02360d8a7156"
-					(reference "R48")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -4916,7 +4916,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3bcef84-1391-4545-a312-1844d02b8301")
-		(property "Reference" "#FLG08"
+		(property "Reference" "#FLG04"
 			(at 146.05 109.855 0)
 			(hide yes)
 			(show_name no)
@@ -4977,7 +4977,7 @@
 		(instances
 			(project "ROV_PCIE_USB_HUB_FINAL"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/42000762-0d3e-4a2e-8bb0-02360d8a7156"
-					(reference "#FLG08")
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -4995,7 +4995,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f52eeff4-e016-4349-a2d1-52d62eb61a30")
-		(property "Reference" "#FLG07"
+		(property "Reference" "#FLG03"
 			(at 146.05 57.785 0)
 			(hide yes)
 			(show_name no)
@@ -5056,7 +5056,7 @@
 		(instances
 			(project "ROV_PCIE_USB_HUB_FINAL"
 				(path "/95e7ccb6-701a-4570-b93f-f5431fbf25de/42000762-0d3e-4a2e-8bb0-02360d8a7156"
-					(reference "#FLG07")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)

@@ -2777,7 +2777,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Receptacle: 1053131102"
+	(text "Receptacle: 1053131102\nPlug:       1053071202\nPins:       1053002100"
 		(exclude_from_sim no)
 		(at 119.634 133.096 0)
 		(effects
@@ -5075,13 +5075,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "083a6c44-8e59-4876-bf41-5cca561a6097")
+			(uuid "083a6c44-8e59-4876-bf41-5cca561a6098")
 		)
 		(pin "2"
-			(uuid "78c6e6db-fdd1-4c5b-85a6-03ecbb414eb7")
+			(uuid "78c6e6db-fdd1-4c5b-85a6-03ecbb414eb8")
 		)
 		(pin "3"
-			(uuid "5e5f9e65-d8c0-4b06-be5f-544018e6458a")
+			(uuid "5e5f9e65-d8c0-4b06-be5f-544018e6458b")
 		)
 		(instances
 			(project "ROV_PCIE_USB_HUB_FINAL"
@@ -6594,7 +6594,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "691351500002"
+		(property "Value" "1053071202"
 			(at 140.97 142.2399 0)
 			(hide yes)
 			(show_name no)
@@ -6639,7 +6639,7 @@
 				)
 			)
 		)
-		(property "Part Number" "691351500002"
+		(property "Part Number" "1053071202"
 			(at 138.43 139.7 0)
 			(hide yes)
 			(show_name no)
