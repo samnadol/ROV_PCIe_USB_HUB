@@ -819,7 +819,7 @@
         "uuid": "95e7ccb6-701a-4570-b93f-f5431fbf25de"
       }
     ],
-    "used_designators": "NT1-5,J1-13,#FLG1-10,H1-4,R1-50,Y1-6,#PWR1-106,D1-4,U1-23,C1-83,FB1-9,Q1,L1-2",
+    "used_designators": "NT1-5,H1-4,J1-13,#FLG1-10,R1-50,Y1-6,#PWR1-106,D1-4,U1-23,C1-83,FB1-9,Q1,L1-2",
     "variants": [
       {
         "name": "USB2414"

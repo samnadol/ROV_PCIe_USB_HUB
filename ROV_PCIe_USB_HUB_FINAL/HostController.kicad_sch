@@ -2473,7 +2473,7 @@
 		)
 		(uuid "2a3a88d6-fd51-4fee-acff-60be7894dda9")
 	)
-	(text "RX and CLK inverted for routability"
+	(text "TX inverted for routability"
 		(exclude_from_sim no)
 		(at 67.056 54.102 0)
 		(effects
@@ -3911,7 +3911,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 67.31) (xy 116.84 67.31)
+			(xy 78.74 64.77) (xy 116.84 64.77)
 		)
 		(stroke
 			(width 0)
@@ -4381,7 +4381,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 64.77) (xy 116.84 64.77)
+			(xy 78.74 67.31) (xy 116.84 67.31)
 		)
 		(stroke
 			(width 0)
@@ -5359,7 +5359,7 @@
 	)
 	(global_label "PI_PCIE_CLK_P"
 		(shape input)
-		(at 78.74 74.93 180)
+		(at 78.74 72.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5369,7 +5369,7 @@
 		)
 		(uuid "1b58e55b-079d-4ac0-b217-ae332161a3fd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 61.7502 74.93 0)
+			(at 61.7502 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5407,7 +5407,7 @@
 	)
 	(global_label "PI_PCIE_RX_N"
 		(shape input)
-		(at 78.74 57.15 180)
+		(at 78.74 59.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5417,7 +5417,7 @@
 		)
 		(uuid "54963c9d-6c93-4aa5-8477-871a71bc94df")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.7783 57.15 0)
+			(at 62.7783 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5455,7 +5455,7 @@
 	)
 	(global_label "PI_PCIE_RX_P"
 		(shape input)
-		(at 78.74 59.69 180)
+		(at 78.74 57.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5465,7 +5465,7 @@
 		)
 		(uuid "9748e655-35f6-4193-b9ae-127b386c763f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.8388 59.69 0)
+			(at 62.8388 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5503,7 +5503,7 @@
 	)
 	(global_label "PI_PCIE_CLK_N"
 		(shape input)
-		(at 78.74 72.39 180)
+		(at 78.74 74.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5513,7 +5513,7 @@
 		)
 		(uuid "c3c29882-90f2-4b9a-88a4-df961cda1055")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 61.6897 72.39 0)
+			(at 61.6897 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
