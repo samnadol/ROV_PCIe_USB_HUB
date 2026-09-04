@@ -2473,9 +2473,9 @@
 		)
 		(uuid "2a3a88d6-fd51-4fee-acff-60be7894dda9")
 	)
-	(text "TX inverted for routability"
+	(text "none inverted for routability"
 		(exclude_from_sim no)
-		(at 67.056 54.102 0)
+		(at 62.992 53.848 0)
 		(effects
 			(font
 				(size 1.27 1.27)
